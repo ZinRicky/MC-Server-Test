@@ -1,0 +1,49 @@
+[00:11:34] [Async Chat Thread - #28/INFO]: <AlphaJack> gradisce una visita?
+[00:11:39] [Async Chat Thread - #28/INFO]: <RichyZ99> volentieri
+[00:12:22] [Async Chat Thread - #28/INFO]: <RichyZ99> ora abbiamo un pulcino in casa
+[00:12:43] [Async Chat Thread - #28/INFO]: <AlphaJack> ha fatto il bagnetto
+[00:12:48] [Async Chat Thread - #28/INFO]: <RichyZ99> ottimo
+[00:13:14] [Async Chat Thread - #28/INFO]: <AlphaJack> venga
+[00:13:28] [Async Chat Thread - #28/INFO]: <RichyZ99> dove ses?
+[00:13:31] [Async Chat Thread - #28/INFO]: <AlphaJack> letto
+[00:14:41] [Async Chat Thread - #29/INFO]: <AlphaJack> aiutami qua sopra
+[00:14:50] [Async Chat Thread - #29/INFO]: <RichyZ99> sto risalendo
+[00:15:11] [Async Chat Thread - #29/INFO]: <RichyZ99> che cosa devo fare?
+[00:15:26] [Async Chat Thread - #29/INFO]: <AlphaJack> facciamo 2x1
+[00:15:30] [Async Chat Thread - #29/INFO]: <AlphaJack> e sotto acqua
+[00:15:35] [Async Chat Thread - #29/INFO]: <RichyZ99> onesto
+[00:15:41] [Async Chat Thread - #29/INFO]: <AlphaJack> così possiamo scendere velocemente
+[00:16:20] [Async Chat Thread - #29/INFO]: <AlphaJack> no
+[00:16:22] [Async Chat Thread - #29/INFO]: <AlphaJack> non scavare
+[00:16:29] [Async Chat Thread - #29/INFO]: <RichyZ99> k
+[00:16:36] [Async Chat Thread - #29/INFO]: <RichyZ99> e l'acqua?
+[00:16:36] [Async Chat Thread - #29/INFO]: <AlphaJack> quanto fondo dev'essere?
+[00:16:46] [Async Chat Thread - #29/INFO]: <RichyZ99> per arrivare a che cosa?
+[00:16:57] [Async Chat Thread - #29/INFO]: <AlphaJack> per non morire
+[00:16:59] [Async Chat Thread - #29/INFO]: <RichyZ99> l'acqua bastano due dita
+[00:17:02] [Async Chat Thread - #29/INFO]: <AlphaJack> basta così profonda?
+[00:17:08] [Async Chat Thread - #29/INFO]: <RichyZ99> a voglia
+[00:17:39] [Async Chat Thread - #29/INFO]: <RichyZ99> Interessane
+[00:17:41] [Async Chat Thread - #29/INFO]: <RichyZ99> *t
+[00:17:52] [Async Chat Thread - #29/INFO]: <AlphaJack> il mio lavoro qui è concluso
+[00:17:55] [Async Chat Thread - #29/INFO]: <AlphaJack> buonanotte
+[00:18:01] [Async Chat Thread - #29/INFO]: <RichyZ99> ma non ho fatto niente
+[00:18:03] [Async Chat Thread - #29/INFO]: <RichyZ99> ok notte
+[00:18:13] [Server thread/INFO]: AlphaJack lost connection: Disconnected
+[00:18:14] [Server thread/INFO]: AlphaJack left the game
+[00:18:16] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
+[00:18:16] [Server thread/INFO]: RichyZ99 left the game
+[00:18:23] [Server thread/INFO]: Stopping the server
+[00:18:23] [Server thread/INFO]: Stopping server
+[00:18:23] [Server thread/INFO]: Saving players
+[00:18:23] [Server thread/INFO]: Saving worlds
+[00:18:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[00:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:18:41] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[00:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:18:41] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[00:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:18:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:18:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:18:42] [Server thread/INFO]: Saving usercache.json

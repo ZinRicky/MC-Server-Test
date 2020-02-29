@@ -1,1 +1,3 @@
-Ciao!
+# minecraft-server
+
+Our Minecraft Server
