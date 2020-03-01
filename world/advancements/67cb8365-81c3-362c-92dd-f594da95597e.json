@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2020-03-01 21:37:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2020-02-25 15:48:58 +0100"
@@ -179,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting": {
+    "criteria": {
+      "has_the_recipe": "2020-03-01 20:08:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_carpet_from_white_carpet": {
     "criteria": {
       "has_black_dye": "2020-02-26 19:08:44 +0100"
@@ -233,6 +245,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2020-03-01 22:42:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2020-02-25 16:53:13 +0100"
@@ -278,6 +296,12 @@
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2020-02-28 13:17:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2020-03-01 21:37:07 +0100"
     },
     "done": true
   },
@@ -352,6 +376,12 @@
       "iron_boots": "2020-02-26 19:27:22 +0100",
       "iron_chestplate": "2020-02-26 19:27:22 +0100",
       "iron_helmet": "2020-02-26 19:27:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-03-01 22:38:25 +0100"
     },
     "done": true
   },
@@ -1069,6 +1099,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2020-03-01 21:37:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2020-02-25 15:52:06 +0100"
@@ -1132,6 +1168,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_orange_dye": "2020-02-25 18:49:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-03-01 22:38:25 +0100"
     },
     "done": true
   },
@@ -1279,6 +1321,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-03-01 22:38:25 +0100"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2020-02-26 16:38:28 +0100"
@@ -1330,6 +1378,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2020-02-25 16:53:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-03-01 22:38:25 +0100"
     },
     "done": true
   },
@@ -1452,9 +1506,11 @@
       "cooked_porkchop": "2020-02-25 16:29:52 +0100",
       "sweet_berries": "2020-02-25 19:07:28 +0100",
       "cooked_beef": "2020-02-28 19:20:12 +0100",
+      "baked_potato": "2020-03-01 22:11:31 +0100",
       "bread": "2020-02-25 17:53:57 +0100",
       "rotten_flesh": "2020-02-25 16:18:00 +0100",
       "melon_slice": "2020-02-26 16:02:56 +0100",
+      "cooked_chicken": "2020-03-01 21:07:24 +0100",
       "cooked_salmon": "2020-02-25 17:53:43 +0100",
       "carrot": "2020-02-28 12:39:29 +0100"
     },
@@ -1547,6 +1603,12 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2020-02-25 17:44:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2020-03-01 21:37:07 +0100"
     },
     "done": true
   },
@@ -1766,6 +1828,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2020-03-01 21:37:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-02-26 17:21:24 +0100"
@@ -1805,6 +1873,12 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2020-02-26 21:10:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2020-03-01 22:42:05 +0100"
     },
     "done": true
   },
@@ -2240,6 +2314,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2020-03-01 21:37:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2020-02-26 17:17:50 +0100"
@@ -2303,6 +2383,12 @@
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_red_flower": "2020-02-28 14:11:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2020-03-01 22:42:05 +0100"
     },
     "done": true
   },
@@ -2429,6 +2515,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-02-26 16:42:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2020-03-01 22:38:25 +0100"
     },
     "done": true
   },

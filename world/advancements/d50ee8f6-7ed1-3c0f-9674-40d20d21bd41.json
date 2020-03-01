@@ -323,6 +323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2020-03-01 22:47:48 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2020-02-28 18:06:42 +0100"
@@ -556,6 +562,7 @@
       "minecraft:cave_spider": "2020-02-27 17:05:26 +0100",
       "minecraft:enderman": "2020-02-27 15:23:00 +0100",
       "minecraft:zombie": "2020-02-25 19:07:44 +0100",
+      "minecraft:drowned": "2020-03-01 20:48:50 +0100",
       "minecraft:zombie_villager": "2020-02-27 18:00:28 +0100"
     },
     "done": false
@@ -845,6 +852,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2020-02-29 23:54:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2020-03-01 22:47:48 +0100"
     },
     "done": true
   },
@@ -1603,6 +1616,7 @@
       "cooked_mutton": "2020-02-27 15:26:49 +0100",
       "sweet_berries": "2020-02-29 23:49:47 +0100",
       "cooked_beef": "2020-02-28 18:19:29 +0100",
+      "baked_potato": "2020-03-01 19:05:02 +0100",
       "potato": "2020-02-29 22:10:49 +0100",
       "bread": "2020-02-25 20:31:13 +0100",
       "melon_slice": "2020-02-26 18:20:52 +0100",

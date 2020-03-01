@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2020-03-01 16:12:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2020-02-25 16:47:24 +0100"
@@ -985,10 +991,12 @@
       "minecraft:ghast": "2020-02-28 21:53:14 +0100",
       "minecraft:magma_cube": "2020-02-29 13:43:24 +0100",
       "minecraft:spider": "2020-02-27 17:34:43 +0100",
+      "minecraft:creeper": "2020-03-01 19:03:15 +0100",
       "minecraft:wither_skeleton": "2020-02-26 19:41:30 +0100",
       "minecraft:cave_spider": "2020-02-27 17:06:14 +0100",
       "minecraft:zombie": "2020-02-25 16:19:19 +0100",
-      "minecraft:drowned": "2020-02-27 18:20:48 +0100"
+      "minecraft:drowned": "2020-02-27 18:20:48 +0100",
+      "minecraft:zombie_villager": "2020-03-01 18:04:58 +0100"
     },
     "done": false
   },

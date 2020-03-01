@@ -33,12 +33,14 @@ cd /home/pi/minecraft/
 
 # Back up server
 if [ -d "world" ]; then
-    echo "Backing up server (to cd minecraft/backups folder)"
+    echo "Committing server to Jack-P2-git"
     # tar --exclude='./backups' --exclude='./cache' --exclude='./logs' --exclude='./paperclip.jar' -pzvcf backups/$(date +%Y.%m.%d.%H.%M.%S).tar.gz ./*
     git add --all
     git commit -m "Automatic backup at $(date +%Y.%m.%d.%H.%M.%S)."
     git push
+    echo "Copying files to backup location"
     cp -r /home/pi/minecraft/* /home/pi/Documents/MC-Server-Test
+    echo "Committing server to GitHub"
     cd /home/pi/Documents/MC-Server-Test
     git add --all
     git commit -m "Automatic backup at $(date +%Y.%m.%d.%H.%M.%S)"
