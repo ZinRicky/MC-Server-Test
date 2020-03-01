@@ -41,7 +41,7 @@ if [ -d "world" ]; then
     cp -r /home/pi/minecraft/* /home/pi/Documents/MC-Server-Test
     cd /home/pi/Documents/MC-Server-Test
     git add --all
-    git commit -m "Automatic backup at $(date +%Y-%m-%d %H:%M:%S)"
+    git commit -m "Automatic backup at $(date +%Y.%m.%d.%H.%M.%S)"
     git push
     cd /home/pi/minecraft
 fi
