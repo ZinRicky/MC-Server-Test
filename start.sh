@@ -1,5 +1,5 @@
 #!/bin/bash
-# James Chambers - December 28th 2019 ses
+# James Chambers - December 28th 2019
 # More information at https://jamesachambers.com/raspberry-pi-minecraft-server-script-with-startup-service-1-13/
 # GitHub Repository: https://github.com/TheRemote/RaspberryPiMinecraft
 # Minecraft Server startup script using screen
@@ -32,12 +32,18 @@ done
 cd /home/pi/minecraft/
 
 # Back up server
-if [ -d "world" ]; then 
+if [ -d "world" ]; then
     echo "Backing up server (to cd minecraft/backups folder)"
     # tar --exclude='./backups' --exclude='./cache' --exclude='./logs' --exclude='./paperclip.jar' -pzvcf backups/$(date +%Y.%m.%d.%H.%M.%S).tar.gz ./*
     git add --all
     git commit -m "Automatic backup at $(date +%Y.%m.%d.%H.%M.%S)."
     git push
+    cp -r /home/pi/minecraft/* /home/pi/Documents/MC-Server-Test
+    cd /home/pi/Documents/MC-Server-Test
+    git add --all
+    git commit -m "Automatic backup at $(date +%Y-%m-%d %H:%M:%S)"
+    git push
+    cd /home/pi/minecraft
 fi
 
 # Paper / Spigot / Bukkit Optimization settings
@@ -149,15 +155,15 @@ if [ -f "server.properties" ]; then
 fi
 
 # Update paperclip.jar
-# echo "Updating to most recent paperclip version ..."
+echo "Updating to most recent paperclip version ..."
 
 # Test internet connectivity first
-#wget --spider --quiet https://papermc.io/api/v1/paper/1.15.2/latest/download
-#if [ "$?" != 0 ]; then
-#    echo "Unable to connect to update website (internet connection may be down).  Skipping update ..."
-#else
-#    wget -O paperclip.jar https://papermc.io/api/v1/paper/1.15.2/latest/download
-#fi
+wget --spider --quiet https://papermc.io/api/v1/paper/1.15.2/latest/download
+if [ "$?" != 0 ]; then
+    echo "Unable to connect to update website (internet connection may be down).  Skipping update ..."
+else
+    wget -O paperclip.jar https://papermc.io/api/v1/paper/1.15.2/latest/download
+fi
 
 echo "Starting Minecraft server.  To view window type screen -r minecraft."
 echo "To minimize the window and let the server run in the background, press Ctrl+A then Ctrl+D"
