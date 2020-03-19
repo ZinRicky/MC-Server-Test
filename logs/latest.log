@@ -1,670 +1,152 @@
-[14:01:29] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[14:01:29] [Server thread/INFO]: Loading properties
-[14:01:31] [Server thread/INFO]: This server is running Paper version git-Paper-122 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[14:01:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:01:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:01:32] [Server thread/INFO]: Debug logging is disabled
-[14:01:33] [Server thread/INFO]: Default game type: SURVIVAL
-[14:01:33] [Server thread/INFO]: Generating keypair
-[14:01:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:01:43] [Server thread/INFO]: Using default channel type
-[14:01:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:01:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:01:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:01:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:01:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:01:44] [Server thread/INFO]: Preparing level "world"
-[14:01:46] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[14:04:27] [Server thread/INFO]: Loaded 6 recipes
-[14:04:31] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:04:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:04:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:04:31] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:04:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:04:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:04:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:04:31] [Server thread/INFO]: View Distance: 8
-[14:04:31] [Server thread/INFO]: Mob Spawn Range: 6
-[14:04:31] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:04:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:04:31] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:04:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:04:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:04:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:04:31] [Server thread/INFO]: Max TNT Explosions: 100
-[14:04:31] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
-[14:04:33] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:04:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:04:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:04:33] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:04:33] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:04:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:04:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:04:33] [Server thread/INFO]: View Distance: 8
-[14:04:33] [Server thread/INFO]: Mob Spawn Range: 6
-[14:04:33] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:04:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:04:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:04:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:04:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:04:33] [Server thread/INFO]: Max TNT Explosions: 100
-[14:04:33] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
-[14:04:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:04:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:04:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:04:33] [Server thread/INFO]: Item Merge Radius: 4.0
-[14:04:33] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:04:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:04:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:04:33] [Server thread/INFO]: View Distance: 8
-[14:04:33] [Server thread/INFO]: Mob Spawn Range: 6
-[14:04:33] [Server thread/INFO]: Experience Merge Radius: 6.0
-[14:04:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:04:33] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv false
-[14:04:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:04:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:04:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:04:33] [Server thread/INFO]: Max TNT Explosions: 100
-[14:04:33] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
-[14:04:34] [Server thread/INFO]: Done (169.472s)! For help, type "help"
-[14:04:34] [Server thread/INFO]: Timings Reset
-[14:45:31] [Server thread/INFO]: [Server] WOWO
-[15:03:46] [Server thread/INFO]: Unknown item 'minecraft:disappointment'
-[15:03:46] [Server thread/INFO]: give @a disappointment<--[HERE]
-[16:04:24] [User Authenticator #1/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[16:04:34] [Server thread/INFO]: Gasolio[/192.168.196.170:52311] logged in with entity id 2 at ([world]-182.076991228184, 68.0, 72.81552493541054)
-[16:06:03] [Server thread/INFO]: Gasolio lost connection: Disconnected
-[16:06:04] [Server thread/INFO]: Gasolio left the game
-[16:08:01] [User Authenticator #2/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[16:08:13] [Server thread/INFO]: Gasolio[/192.168.196.170:52574] logged in with entity id 171 at ([world]-204.6202296536174, 63.0, 86.94051518388937)
-[16:08:30] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[16:08:30] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[16:09:57] [Server thread/WARN]: Gasolio moved wrongly!
-[16:16:05] [Server thread/INFO]: Gasolio issued server command: /time set day
-[16:16:05] [Server thread/INFO]: [Gasolio: Set the time to 1000]
-[16:17:03] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[16:17:03] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[16:23:18] [Server thread/INFO]: Gasolio lost connection: Disconnected
-[16:23:19] [Server thread/INFO]: Gasolio left the game
-[17:18:21] [User Authenticator #3/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[17:18:31] [Server thread/INFO]: Gasolio[/192.168.196.170:57167] logged in with entity id 2883 at ([world]-209.1475762409035, 62.0, 67.99173726623444)
-[17:21:45] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[17:21:45] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[17:23:47] [Server thread/INFO]: Gasolio hit the ground too hard
-[17:26:00] [Server thread/INFO]: Gasolio issued server command: /gamerule maxEntityCramming -1
-[17:26:00] [Server thread/INFO]: [Gasolio: Gamerule maxEntityCramming is now set to: -1]
-[17:47:59] [Server thread/INFO]: Gasolio issued server command: /gamerule maxEntityCramming 27
-[17:47:59] [Server thread/INFO]: [Gasolio: Gamerule maxEntityCramming is now set to: 27]
-[17:48:02] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[17:48:02] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[17:56:34] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[17:56:34] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[17:59:02] [Async Chat Thread - #0/INFO]: <Gasolio> wwww
-[18:03:32] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:03:32] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:03:39] [Server thread/INFO]: Gasolio issued server command: /time set day
-[18:03:39] [Server thread/INFO]: [Gasolio: Set the time to 1000]
-[18:09:05] [Server thread/INFO]: The difficulty has been set to Hard
-[18:09:13] [Async Chat Thread - #1/INFO]: <Gasolio> ecco meglio
-[18:09:27] [Server thread/INFO]: [Server] esatto
-[18:09:33] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:09:33] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:09:39] [Server thread/INFO]: [Server] Ora ti possono aprire il culo come piace a te XD
-[18:09:58] [Server thread/INFO]: Incorrect argument for command
-[18:09:58] [Server thread/INFO]: weather storn<--[HERE]
-[18:10:01] [Server thread/INFO]: Incorrect argument for command
-[18:10:01] [Server thread/INFO]: weather storm<--[HERE]
-[18:10:05] [Server thread/INFO]: Set the weather to rain
-[18:10:11] [Async Chat Thread - #1/INFO]: <Gasolio> no ti prego
-[18:10:15] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:10:15] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:10:22] [Server thread/INFO]: [Server] Ahahahahahahahahahahahahahahahahahahahahahahahah
-[18:10:29] [Async Chat Thread - #1/INFO]: <Gasolio> non ne posso piu
-[18:13:34] [Server thread/INFO]: [Server] L'unica cosa che non è bella di questo mondo è che piove sempre
-[18:13:41] [Server thread/INFO]: [Server] (Governo ladro)
-[18:13:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: *20.0, 19.76, 17.35
-[18:14:18] [Server thread/INFO]: [Server] Mhmmm, il server sta andando troppo bene: mi sa che entro anche io
-[18:14:51] [User Authenticator #4/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
-[18:15:04] [Server thread/INFO]: RichyZ99[/192.168.196.242:62594] logged in with entity id 8080 at ([world]-123.30000001192093, 4.0, 90.63557665579802)
-[18:15:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.93, 19.99, 17.43
-[18:16:59] [Async Chat Thread - #2/INFO]: <Gasolio> vieni a dormire
-[18:17:03] [Async Chat Thread - #2/INFO]: <RichyZ99> ok
-[18:18:06] [Async Chat Thread - #3/INFO]: <Gasolio> seguimi
-[18:18:10] [Async Chat Thread - #3/INFO]: <RichyZ99> buongiornissimo
-[18:18:11] [Async Chat Thread - #3/INFO]: <RichyZ99> ok
-[18:18:13] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:18:13] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:19:19] [Async Chat Thread - #4/INFO]: <Gasolio> ho inventario pieno
-[18:19:39] [Async Chat Thread - #4/INFO]: <Gasolio> visto?
-[18:19:42] [Async Chat Thread - #4/INFO]: <Gasolio> attaccato a casa
-[18:19:43] [Async Chat Thread - #4/INFO]: <RichyZ99> Vedo vedo
-[18:19:55] [Async Chat Thread - #4/INFO]: <Gasolio> figata
-[18:19:55] [Async Chat Thread - #4/INFO]: <RichyZ99> Però non so come si faccia il grinder
-[18:20:07] [Async Chat Thread - #4/INFO]: <Gasolio> io l'ho fatto ieri per gli zombie
-[18:20:10] [Async Chat Thread - #4/INFO]: <Gasolio> vieni a vedere
-[18:20:15] [Async Chat Thread - #4/INFO]: <RichyZ99> L'ho già visto
-[18:20:25] [Async Chat Thread - #4/INFO]: <Gasolio> ho finito ieri sera
-[18:20:26] [Async Chat Thread - #4/INFO]: <RichyZ99> me l'ha fatto vedere Jack
-[18:20:29] [Async Chat Thread - #4/INFO]: <Gasolio> hai visto sicuro?
-[18:20:30] [Async Chat Thread - #4/INFO]: <RichyZ99> Ieri alle 23
-[18:20:31] [Async Chat Thread - #4/INFO]: <Gasolio> ah ok
-[18:20:38] [Async Chat Thread - #4/INFO]: <RichyZ99> Quello con l'acqua, giusto?
-[18:20:40] [Async Chat Thread - #4/INFO]: <Gasolio> vai tranquillo ci penso io
-[18:20:41] [Async Chat Thread - #4/INFO]: <Gasolio> sisi
-[18:20:50] [Async Chat Thread - #4/INFO]: <RichyZ99> Ok; torno a fare legna
-[18:21:11] [Async Chat Thread - #4/INFO]: <Gasolio> solo che non so se farlo verso l'alto (si vederebbe un pillar di 22 blocchi) o verso il basso
-[18:21:21] [Async Chat Thread - #4/INFO]: <Gasolio> (poi ci tocca scendere per farmare)
-[18:21:41] [Async Chat Thread - #4/INFO]: <RichyZ99> Vai verso il basso: dà meno nell'occhio
-[18:21:54] [Async Chat Thread - #4/INFO]: <RichyZ99> Chiedo scusa
-[18:26:58] [Async Chat Thread - #5/INFO]: <RichyZ99> To' guarda che tempo s'è fatto
-[18:27:01] [Async Chat Thread - #5/INFO]: <Gasolio> dio
-[18:27:09] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:27:09] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:35:59] [Async Chat Thread - #6/INFO]: <Gasolio> Guarda un po'
-[18:35:59] [Async Chat Thread - #6/INFO]: <RichyZ99> dormiamo?
-[18:36:01] [Async Chat Thread - #6/INFO]: <Gasolio> piove
-[18:36:06] [Async Chat Thread - #6/INFO]: <RichyZ99> io sono già a leto
-[18:36:09] [Async Chat Thread - #6/INFO]: <RichyZ99> letto*
-[18:36:30] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:36:30] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:38:26] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[18:39:14] [Async Chat Thread - #7/INFO]: <RichyZ99> Il server non sta caricando i chunk davanti a me
-[18:39:21] [Async Chat Thread - #7/INFO]: <Gasolio> molto bene
-[18:39:34] [Async Chat Thread - #7/INFO]: <RichyZ99> o meglio, li carica quando ha voglia
-[18:39:36] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[18:39:56] [Async Chat Thread - #7/INFO]: <RichyZ99> E, considerando le prestazioni al momento, si sta pure impegnando
-[18:40:03] [Async Chat Thread - #7/INFO]: <Gasolio> a me lagga
-[18:40:11] [Async Chat Thread - #7/INFO]: <RichyZ99> Immagino
-[18:40:12] [Async Chat Thread - #7/INFO]: <Gasolio> scavo i blocchi 2 volte
-[18:40:34] [Async Chat Thread - #7/INFO]: <Gasolio> anche 3
-[18:40:56] [Async Chat Thread - #7/INFO]: <RichyZ99> Questo perché non siamo mai andati fuori dai chunk vecchi da quando il Pi è attivo
-[18:41:44] [Async Chat Thread - #7/INFO]: <RichyZ99> ci sono i pappagalli qui
-[18:41:47] [User Authenticator #5/INFO]: UUID of player AlphaJack is d50ee8f6-7ed1-3c0f-9674-40d20d21bd41
-[18:42:10] [Server thread/INFO]: AlphaJack[/192.168.196.65:49419] logged in with entity id 12011 at ([world]-126.30000001192093, 5.0, 87.30000001192093)
-[18:42:12] [Server thread/WARN]: RichyZ99 moved too quickly! 20.421075988464565,-3.817935982295026,25.682162198390415
-[18:42:12] [Server thread/WARN]: Gasolio moved wrongly!
-[18:42:12] [Server thread/WARN]: RichyZ99 moved too quickly! 20.38135436877417,-3.9033359811983033,25.564945329410307
-[18:42:25] [Async Chat Thread - #7/INFO]: <Gasolio> lagga abbbestia dio morto
-[18:42:29] [Async Chat Thread - #7/INFO]: <AlphaJack> sera
-[18:42:34] [Async Chat Thread - #7/INFO]: <Gasolio> sega
-[18:42:43] [Async Chat Thread - #7/INFO]: <RichyZ99> forse è meglio se rimando l'esplorazione di terre nuove ad un'altra volta
-[18:42:46] [Async Chat Thread - #7/INFO]: <RichyZ99> ciao giente
-[18:42:47] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
-[18:42:48] [Async Chat Thread - #7/INFO]: <AlphaJack> sparisco 2 minuti
-[18:42:48] [Server thread/INFO]: RichyZ99 left the game
-[18:45:49] [Async Chat Thread - #8/INFO]: <AlphaJack> come si fanno le spadate che colpiscono tutti?
-[18:45:54] [Async Chat Thread - #8/INFO]: <Gasolio> eh non lo so
-[18:46:03] [Async Chat Thread - #8/INFO]: <AlphaJack> dove sei con lo spawner?
-[18:46:16] [Async Chat Thread - #8/INFO]: <Gasolio> esci dalla porta vai a destra segui il vialetto
-[18:46:17] [Server thread/INFO]: [Server] basta non spammare lmb ma aspettare il cooldown della spada
-[18:46:33] [Async Chat Thread - #8/INFO]: <AlphaJack> perchè avete riempito di torce tutto quanto?
-[18:46:39] [Async Chat Thread - #8/INFO]: <Gasolio> cosa
-[18:46:49] [Async Chat Thread - #8/INFO]: <AlphaJack> dagli zombie
-[18:46:56] [Async Chat Thread - #8/INFO]: <AlphaJack> tutto il condotto
-[18:46:59] [Async Chat Thread - #8/INFO]: <Gasolio> ah io
-[18:47:02] [Async Chat Thread - #8/INFO]: <Gasolio> fatto io
-[18:47:12] [Async Chat Thread - #8/INFO]: <AlphaJack> non riduci l'output?
-[18:50:58] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[18:50:58] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[18:50:58] [Async Chat Thread - #9/INFO]: <AlphaJack> dove sei con lo spawner?
-[18:51:05] [Async Chat Thread - #9/INFO]: <Gasolio> esci dalla porta vai a destra segui il vialetto
-[18:51:58] [Async Chat Thread - #9/INFO]: <Gasolio> meeerda
-[18:51:59] [Async Chat Thread - #9/INFO]: <Gasolio> scusa
-[18:52:01] [Async Chat Thread - #9/INFO]: <AlphaJack> diopazzo
-[18:52:01] [Async Chat Thread - #9/INFO]: <Gasolio> cazzo
-[18:52:09] [Async Chat Thread - #9/INFO]: <AlphaJack> lol
-[18:52:27] [Async Chat Thread - #9/INFO]: <Gasolio> ti butto l'acqua
-[18:52:58] [Async Chat Thread - #9/INFO]: <Gasolio> sali
-[18:53:03] [Async Chat Thread - #9/INFO]: <Gasolio> non è li lo spwner
-[18:53:24] [Async Chat Thread - #9/INFO]: <AlphaJack> arcodio
-[18:53:27] [Async Chat Thread - #9/INFO]: <Gasolio> cosa ce
-[18:53:29] [Async Chat Thread - #9/INFO]: <AlphaJack> guarda chi stava poer salire
-[18:53:43] [Async Chat Thread - #9/INFO]: <Gasolio> amore
-[18:54:05] [Async Chat Thread - #9/INFO]: <Gasolio> vieni su
-[18:54:37] [Async Chat Thread - #9/INFO]: <AlphaJack> dc
-[18:54:42] [Async Chat Thread - #9/INFO]: <Gasolio> cosa ce
-[18:54:43] [Async Chat Thread - #9/INFO]: <AlphaJack> così in superficie
-[18:54:46] [Async Chat Thread - #9/INFO]: <Gasolio> eh si
-[18:54:47] [Async Chat Thread - #9/INFO]: <Gasolio> meglio
-[18:54:53] [Async Chat Thread - #9/INFO]: <Gasolio> cosi non serve la soulsand
-[18:54:58] [Async Chat Thread - #9/INFO]: <Gasolio> faccio il buco e basta
-[18:55:26] [Async Chat Thread - #9/INFO]: <AlphaJack> mah
-[18:55:27] [Async Chat Thread - #9/INFO]: <Gasolio> jack basta è gia 4x4
-[18:55:33] [Async Chat Thread - #9/INFO]: <AlphaJack> carbone
-[18:55:37] [Async Chat Thread - #9/INFO]: <Gasolio> ah ok
-[18:56:06] [Async Chat Thread - #9/INFO]: <AlphaJack> quello di blaze è astronomica come impresea
-[18:56:18] [Async Chat Thread - #9/INFO]: <Gasolio> prendi il secchio
-[18:56:26] [Async Chat Thread - #9/INFO]: <AlphaJack> devi salire?
-[18:56:27] [Async Chat Thread - #9/INFO]: <Gasolio> poi mi butti l'acqua cosi risalgo
-[18:56:38] [Async Chat Thread - #9/INFO]: <Gasolio> dopo jack
-[18:56:49] [Async Chat Thread - #9/INFO]: <AlphaJack> anzi
-[18:58:47] [Async Chat Thread - #10/INFO]: <Gasolio> acqua jack
-[18:58:58] [Async Chat Thread - #10/INFO]: <AlphaJack> sscende
-[18:59:16] [Async Chat Thread - #10/INFO]: <Gasolio> nooooo
-[18:59:20] [Async Chat Thread - #10/INFO]: <Gasolio> non il secchio cazzo
-[18:59:25] [Async Chat Thread - #10/INFO]: <Gasolio> proprio l'acuq
-[18:59:30] [Async Chat Thread - #10/INFO]: <Gasolio> per risalire
-[18:59:40] [Async Chat Thread - #10/INFO]: <AlphaJack> lol
-[19:00:01] [Async Chat Thread - #10/INFO]: <Gasolio> grz
-[19:00:29] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[19:00:29] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[19:00:32] [Async Chat Thread - #10/INFO]: <AlphaJack> ma
-[19:00:45] [Async Chat Thread - #10/INFO]: <AlphaJack> è qua
-[19:01:04] [Async Chat Thread - #10/INFO]: <AlphaJack> ascensore?
-[19:01:12] [Async Chat Thread - #10/INFO]: <Gasolio> servirebbe si
-[19:01:21] [Async Chat Thread - #10/INFO]: <Gasolio> io devo staccare jack torno tra mezzora
-[19:01:25] [Async Chat Thread - #10/INFO]: <AlphaJack> ok
-[19:01:28] [Async Chat Thread - #10/INFO]: <AlphaJack> 21?
-[19:01:30] [Async Chat Thread - #10/INFO]: <Gasolio> se vuoi vai avanti
-[19:01:34] [Async Chat Thread - #10/INFO]: <Gasolio> anche prima
-[19:01:34] [Async Chat Thread - #10/INFO]: <AlphaJack> quanto hai scavato?
-[19:01:38] [Async Chat Thread - #10/INFO]: <Gasolio> ah
-[19:01:41] [Async Chat Thread - #10/INFO]: <Gasolio> 22 blocchi
-[19:01:46] [Async Chat Thread - #10/INFO]: <AlphaJack> da lì però
-[19:01:48] [Async Chat Thread - #10/INFO]: <Gasolio> fino al 38
-[19:01:51] [Async Chat Thread - #10/INFO]: <AlphaJack> ok
-[19:01:59] [Async Chat Thread - #10/INFO]: <Gasolio> c'è già un tunnel di un'altra miniera
-[19:02:05] [Async Chat Thread - #10/INFO]: <Gasolio> che parte da casa
-[19:02:23] [Async Chat Thread - #10/INFO]: <Gasolio> arriva porprio lì sotto
-[19:05:51] [Async Chat Thread - #11/INFO]: <Gasolio> a dopo
-[19:05:53] [Server thread/INFO]: Gasolio lost connection: Disconnected
-[19:05:54] [Server thread/INFO]: Gasolio left the game
-[19:27:54] [Server thread/INFO]: AlphaJack lost connection: Disconnected
-[19:27:55] [Server thread/INFO]: AlphaJack left the game
-[19:57:13] [User Authenticator #6/INFO]: UUID of player AlphaJack is d50ee8f6-7ed1-3c0f-9674-40d20d21bd41
-[19:57:22] [Server thread/INFO]: AlphaJack[/192.168.196.65:50748] logged in with entity id 16005 at ([world]-236.55064644018947, 63.0, 23.825457944910767)
-[20:04:48] [User Authenticator #7/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[20:04:54] [Server thread/INFO]: phi[/192.168.196.201:63561] logged in with entity id 16745 at ([world]-185.21536075519015, 4.0, 145.34741635017173)
-[20:05:08] [Async Chat Thread - #12/INFO]: <AlphaJack> hey
-[20:05:18] [Server thread/INFO]: phi lost connection: Disconnected
-[20:05:20] [Server thread/INFO]: phi left the game
-[20:05:30] [User Authenticator #7/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[20:05:35] [Server thread/INFO]: phi[/192.168.196.201:63618] logged in with entity id 16816 at ([world]-185.21536075519015, 4.0, 145.34741635017173)
-[20:05:42] [Server thread/INFO]: phi suffocated in a wall
-[20:05:53] [Async Chat Thread - #12/INFO]: <AlphaJack> cazzo
-[20:06:54] [Async Chat Thread - #13/INFO]: <phi> Varola schifosa
-[20:07:09] [Async Chat Thread - #13/INFO]: <phi> Ho perso tutto perché il server mi ha fatto nascere nella roccia
-[20:07:18] [Async Chat Thread - #13/INFO]: <AlphaJack> io mi ero buttato in creativa
-[20:07:25] [Async Chat Thread - #13/INFO]: <phi> E come?
-[20:07:29] [Async Chat Thread - #13/INFO]: <AlphaJack> trucchi
-[20:07:32] [Async Chat Thread - #13/INFO]: <AlphaJack> velocemente
-[20:07:33] [Async Chat Thread - #13/INFO]: <phi> Graziella
-[20:07:38] [Async Chat Thread - #13/INFO]: <phi> Io sono nato già morto
-[20:07:46] [Async Chat Thread - #13/INFO]: <phi> Un aborto in prativa
-[20:09:14] [Async Chat Thread - #14/INFO]: <phi> È etico recuperare almeno l'armatura in creativa?
-[20:09:26] [Async Chat Thread - #14/INFO]: <AlphaJack> come credi
-[20:09:41] [Server thread/INFO]: phi issued server command: /gamemode creative
-[20:09:46] [Async Chat Thread - #14/INFO]: <phi> Non sono op
-[20:09:54] [Server thread/INFO]: AlphaJack issued server command: /gamemode creative phi
-[20:09:54] [Server thread/INFO]: [AlphaJack: Set phi's game mode to Creative Mode]
-[20:09:59] [Async Chat Thread - #14/INFO]: <phi> Oh, grazie
-[20:10:25] [Server thread/INFO]: AlphaJack was shot by Skeleton
-[20:10:34] [Async Chat Thread - #14/INFO]: <AlphaJack> via parco
-[20:11:43] [Async Chat Thread - #15/INFO]: <phi> Puoi riportarmi in sopravvivenza
-[20:11:56] [Server thread/INFO]: AlphaJack issued server command: /gamemode survival phi
-[20:11:56] [Server thread/INFO]: [AlphaJack: Set phi's game mode to Survival Mode]
-[20:11:59] [Async Chat Thread - #15/INFO]: <phi> Grazie
-[20:14:01] [Async Chat Thread - #16/INFO]: <AlphaJack> pensavo di fare un collegamento via acqua per tutti i laghetti
-[20:14:07] [Async Chat Thread - #16/INFO]: <phi> Sarebbe carino
-[20:14:11] [Async Chat Thread - #16/INFO]: <phi> Io vado a mangiare
-[20:14:16] [Server thread/INFO]: phi lost connection: Disconnected
-[20:14:16] [Server thread/INFO]: phi left the game
-[21:01:18] [Server thread/INFO]: AlphaJack lost connection: Disconnected
-[21:01:18] [Server thread/INFO]: AlphaJack left the game
-[21:04:17] [User Authenticator #8/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[21:04:27] [Server thread/INFO]: phi[/192.168.196.201:65130] logged in with entity id 21438 at ([world]-196.75250479463367, 68.0, 85.67456779481266)
-[21:04:34] [User Authenticator #8/INFO]: UUID of player AlphaJack is d50ee8f6-7ed1-3c0f-9674-40d20d21bd41
-[21:04:42] [Server thread/INFO]: AlphaJack[/192.168.196.65:51969] logged in with entity id 21508 at ([world]-252.85963080217837, 37.5, 15.94281429945418)
-[21:05:03] [Async Chat Thread - #17/INFO]: <AlphaJack> fede
-[21:05:07] [Async Chat Thread - #17/INFO]: <phi> Dika
-[21:05:20] [Async Chat Thread - #17/INFO]: <AlphaJack> hai visto lo spawner?
-[21:05:31] [Async Chat Thread - #17/INFO]: <phi> Ho visto uno scheletro che mi sta sparando
-[21:05:51] [User Authenticator #9/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[21:05:51] [Server thread/INFO]: phi lost connection: You logged in from another location
-[21:05:52] [Server thread/INFO]: phi left the game
-[21:05:53] [Server thread/INFO]: phi[/192.168.196.201:65261] logged in with entity id 21687 at ([world]-198.08999276868244, 68.0, 90.81973499839637)
-[21:06:02] [Async Chat Thread - #17/INFO]: <AlphaJack> se hai tempo vieni a sx della casa che ti faccio fare un po' di livelli
-[21:06:15] [Async Chat Thread - #17/INFO]: <phi> Arrivo
-[21:07:18] [Async Chat Thread - #18/INFO]: <phi> Dove?
-[21:07:32] [Async Chat Thread - #18/INFO]: <AlphaJack> segui il sentiero
-[21:07:37] [Async Chat Thread - #18/INFO]: <phi> Uhm
-[21:07:45] [Async Chat Thread - #18/INFO]: <phi> Non dentro casa
-[21:07:49] [Async Chat Thread - #18/INFO]: <AlphaJack> no
-[21:07:55] [Async Chat Thread - #18/INFO]: <AlphaJack> fuori, per andare a sinistra
-[21:08:06] [Async Chat Thread - #18/INFO]: <AlphaJack> le farm sono a destra
-[21:08:46] [Async Chat Thread - #18/INFO]: <AlphaJack> varola
-[21:08:55] [Async Chat Thread - #18/INFO]: <phi> Dove?
-[21:09:01] [Async Chat Thread - #18/INFO]: <phi> Sono andato a sinistra lungo il sentier
-[21:09:02] [Async Chat Thread - #18/INFO]: <AlphaJack> ho sentito un'esplosione
-[21:09:03] [Async Chat Thread - #18/INFO]: <phi> o
-[21:09:08] [Async Chat Thread - #18/INFO]: <phi> Ero io
-[21:09:10] [Async Chat Thread - #18/INFO]: <phi> creeper
-[21:09:13] [Async Chat Thread - #18/INFO]: <AlphaJack> aspe
-[21:09:24] [Async Chat Thread - #18/INFO]: <AlphaJack> torna
-[21:09:59] [Async Chat Thread - #18/INFO]: <phi> In casa?
-[21:10:02] [Async Chat Thread - #18/INFO]: <phi> Forse ho trovato
-[21:10:20] [Async Chat Thread - #18/INFO]: <phi> È un coso di pietrisco?
-[21:10:26] [Async Chat Thread - #18/INFO]: <AlphaJack> se
-[21:10:43] [Async Chat Thread - #18/INFO]: <AlphaJack> scendi
-[21:10:55] [Async Chat Thread - #18/INFO]: <AlphaJack> puoi anche buttarti
-[21:11:13] [Async Chat Thread - #18/INFO]: <phi> Uh
-[21:11:41] [Async Chat Thread - #18/INFO]: <AlphaJack> funziona perchè io sto qua sopra
-[21:11:44] [Async Chat Thread - #18/INFO]: <phi> Ah
-[21:12:18] [Async Chat Thread - #18/INFO]: <phi> Basta?
-[21:12:25] [Async Chat Thread - #18/INFO]: <AlphaJack> quello degli zombie li fa andare avanti di poco, li alza, li fa cadere e alla fine ti ritrovi ad ucciderli vicino allo spawner
-[21:12:46] [Async Chat Thread - #18/INFO]: <phi> Ah
-[21:12:49] [Async Chat Thread - #18/INFO]: <AlphaJack> qua invece bisogna prima avvicinarsi e solo dopo cadono
-[21:13:04] [Async Chat Thread - #18/INFO]: <AlphaJack> ci mette dai 10 ai 40 secondi per generarne un'altra ondata
-[21:13:08] [Async Chat Thread - #18/INFO]: <phi> Quelli con l'armatura non lasciano giú nulla
-[21:13:18] [Async Chat Thread - #18/INFO]: <AlphaJack> come no
-[21:13:22] [Async Chat Thread - #18/INFO]: <phi> Non ancora
-[21:13:28] [Async Chat Thread - #18/INFO]: <phi> Ne son capitati diversy
-[21:13:30] [Server thread/INFO]: AlphaJack issued server command: /msg AlphaJack ciao
-[21:13:45] [Async Chat Thread - #18/INFO]: <AlphaJack> sento zombie
-[21:14:02] [Async Chat Thread - #18/INFO]: <phi> Hmm, dove?
-[21:14:25] [Async Chat Thread - #18/INFO]: <AlphaJack> stando ad altezza spawner
-[21:14:29] [Async Chat Thread - #18/INFO]: <phi> Gli archi non rimangono incantati, sembra
-[21:14:35] [Async Chat Thread - #18/INFO]: <AlphaJack> si
-[21:14:51] [Async Chat Thread - #18/INFO]: <phi> Non mi risulta
-[21:14:53] [Async Chat Thread - #18/INFO]: <AlphaJack> ne hanno cagato uno con potenza3 resistenza3
-[21:15:01] [Async Chat Thread - #18/INFO]: <phi> Ah
-[21:15:07] [Async Chat Thread - #18/INFO]: <phi> Sono proprio sfortunato allora
-[21:15:21] [Async Chat Thread - #18/INFO]: <phi> Poi mi spieghi come hanno uscito un muretto di pietrisco
-[21:15:39] [Async Chat Thread - #18/INFO]: <AlphaJack> no, pensa a questi sfortunati che hanno meno di 5 secondi di vita
-[21:15:52] [Async Chat Thread - #18/INFO]: <phi> Devo ucciderli io, no?
-[21:16:00] [Async Chat Thread - #18/INFO]: <phi> Che magari sto sbagliando qualcosa
-[21:16:09] [Async Chat Thread - #18/INFO]: <AlphaJack> si, altrimenti niente esperienza
-[21:16:16] [Async Chat Thread - #18/INFO]: <phi> Eh ok
-[21:16:21] [Async Chat Thread - #18/INFO]: <AlphaJack> ho letto che fanno cadere anche torce
-[21:16:35] [Async Chat Thread - #18/INFO]: <phi> Per ora solo roba normale
-[21:16:45] [Async Chat Thread - #18/INFO]: <AlphaJack> ma di rado
-[21:16:49] [Async Chat Thread - #18/INFO]: <phi> Se vuoi dopo vado io di sopra
-[21:17:04] [Async Chat Thread - #18/INFO]: <phi> Comparsa una torcia
-[21:17:09] [Async Chat Thread - #18/INFO]: <AlphaJack> ah se??!
-[21:17:10] [Async Chat Thread - #18/INFO]: <phi> Anche un blocco di pietrisco
-[21:17:21] [Async Chat Thread - #18/INFO]: <AlphaJack> pietra è piu normale
-[21:17:51] [Async Chat Thread - #18/INFO]: <AlphaJack> soprattutto se il tuo amico sopra sta lavorando coi blocchi
-[21:17:58] [Async Chat Thread - #18/INFO]: <phi> LOL
-[21:18:53] [Async Chat Thread - #18/INFO]: <phi> Oh ma non la mollano mica l'armatura
-[21:19:09] [Async Chat Thread - #18/INFO]: <phi> Torno tra un attimo, il mio personaggio lo lascio qua
-[21:19:10] [Async Chat Thread - #18/INFO]: <AlphaJack> bisognerebbe incantare qualcosa con "looting"
-[21:19:13] [Async Chat Thread - #18/INFO]: <AlphaJack> anzi
-[21:19:15] [Async Chat Thread - #18/INFO]: <AlphaJack> vieni su
-[21:19:19] [Async Chat Thread - #18/INFO]: <AlphaJack> dammi il cambio
-[21:19:39] [Async Chat Thread - #18/INFO]: <AlphaJack> varola
-[21:19:43] [Async Chat Thread - #18/INFO]: <AlphaJack> ah ok ci sei
-[21:19:46] [Async Chat Thread - #18/INFO]: <phi> Ok
-[21:19:54] [Async Chat Thread - #18/INFO]: <phi> Devo tornare di là tra un attimo
-[21:19:57] [Async Chat Thread - #18/INFO]: <phi> Vengo su
-[21:20:06] [Async Chat Thread - #18/INFO]: <AlphaJack> sali la scaletta, continua e sali finchè non vedi vetro
-[21:20:11] [Async Chat Thread - #18/INFO]: <AlphaJack> ti piazzi li davanti
-[21:20:24] [Async Chat Thread - #18/INFO]: <phi> Vetro?
-[21:20:33] [Async Chat Thread - #18/INFO]: <AlphaJack> per guardare
-[21:20:52] [Async Chat Thread - #18/INFO]: <phi> Trovato
-[21:21:09] [Async Chat Thread - #18/INFO]: <phi> Arrivo tra 30"
-[21:21:13] [Async Chat Thread - #18/INFO]: <AlphaJack> grazie
-[21:23:03] [Async Chat Thread - #19/INFO]: <phi> Phigurati
-[21:23:26] [Async Chat Thread - #19/INFO]: <phi> Cascate armature e robe incantate?
-[21:23:47] [Async Chat Thread - #19/INFO]: <AlphaJack> sì
-[21:23:52] [Async Chat Thread - #19/INFO]: <phi> Varolabbestia
-[21:23:56] [Async Chat Thread - #19/INFO]: <phi> Perché a me no
-[21:24:07] [Async Chat Thread - #19/INFO]: <AlphaJack> vieni a prenderla se vuoi
-[21:24:11] [Async Chat Thread - #19/INFO]: <phi> Dovevo usare una spada incantata?
-[21:24:15] [Async Chat Thread - #19/INFO]: <AlphaJack> no
-[21:24:33] [Async Chat Thread - #19/INFO]: <AlphaJack> io li sto finendo a son di braciolate di maiale
-[21:24:39] [Async Chat Thread - #19/INFO]: <phi> LOL
-[21:24:57] [Async Chat Thread - #19/INFO]: <phi> Grazie
-[21:25:25] [Async Chat Thread - #19/INFO]: <phi> Stai andando a casa?
-[21:25:28] [Async Chat Thread - #19/INFO]: <AlphaJack> no
-[21:25:35] [Async Chat Thread - #19/INFO]: <AlphaJack> nel mio posto afk
-[21:25:38] [Async Chat Thread - #19/INFO]: <AlphaJack> quello del vetro
-[21:25:41] [Async Chat Thread - #19/INFO]: <phi> Ah k
-[21:25:46] [Async Chat Thread - #19/INFO]: <AlphaJack> intanto leggo della Netherite
-[21:25:49] [Async Chat Thread - #19/INFO]: <phi> Va bene
-[21:26:24] [Async Chat Thread - #19/INFO]: <AlphaJack> potremmo usare la versione snapshot
-[21:26:31] [Async Chat Thread - #19/INFO]: <phi> ?
-[21:26:44] [Async Chat Thread - #19/INFO]: <AlphaJack> 20w09a
-[21:26:51] [Async Chat Thread - #19/INFO]: <AlphaJack> quella prima di 1.16
-[21:27:01] [Async Chat Thread - #19/INFO]: <phi> Aaaah
-[21:27:46] [Async Chat Thread - #19/INFO]: <AlphaJack> domanda da 100 000 000
-[21:28:04] [Async Chat Thread - #19/INFO]: <AlphaJack> se per terra c'è magma ma l'acqua ti trasporta via, ti danneggi comunque?
-[21:28:12] [Async Chat Thread - #19/INFO]: <AlphaJack> magma, non lava
-[21:28:13] [Async Chat Thread - #19/INFO]: <phi> Hmm
-[21:28:19] [Async Chat Thread - #19/INFO]: <phi> IRL?
-[21:28:31] [Async Chat Thread - #19/INFO]: <AlphaJack> no
-[21:28:41] [Async Chat Thread - #19/INFO]: <phi> In minecraft non c'è magma
-[21:28:44] [Async Chat Thread - #19/INFO]: <AlphaJack> sì
-[21:28:48] [Async Chat Thread - #19/INFO]: <phi> wat
-[21:29:05] [Async Chat Thread - #19/INFO]: <AlphaJack> "blocco di magma", vicino al blocco luminoso
-[21:29:12] [Async Chat Thread - #19/INFO]: <AlphaJack> l'ho messo nella cassa del nether
-[21:29:16] [Async Chat Thread - #19/INFO]: <phi> Seriamente?
-[21:29:19] [Async Chat Thread - #19/INFO]: <phi> Ottimo
-[21:29:28] [Async Chat Thread - #19/INFO]: <AlphaJack> non ti brucia da quanto sembra
-[21:29:49] [Async Chat Thread - #19/INFO]: <phi> Però paradossalmente il blocco di magma è piú freddo e viscoso di quello di lava
-[21:30:00] [Async Chat Thread - #19/INFO]: <phi> Se lo sentisse la Busulini
-[21:30:04] [Async Chat Thread - #19/INFO]: <AlphaJack> e poi devo capire se i mob prendono danni dai rovi
-[21:30:14] [Async Chat Thread - #19/INFO]: <phi> Dovremmo provare
-[21:30:19] [Async Chat Thread - #19/INFO]: <phi> Lol li uccidiamo coi rovi
-[21:31:02] [Async Chat Thread - #19/INFO]: <AlphaJack> Sweet berry bushes can deal 1♥ damage every 0.5 seconds to the player or other mobs (except foxes) that move or jump inside them, similar to a cactus, as long as the bush has grown past its first growth stage. Planting bushes around an animal effectively t
-[21:31:29] [Async Chat Thread - #19/INFO]: <phi> Interessante
-[21:32:47] [Async Chat Thread - #20/INFO]: <phi> Io andrei in casa a depositare, se vuoi
-[21:32:56] [Async Chat Thread - #20/INFO]: <phi> Voglio riparare armatura e cose
-[21:33:42] [Async Chat Thread - #20/INFO]: <AlphaJack> Magma blocks damage living entities standing on top of them even if underwater (with exceptions such as shulkers or guardians), dealing 1♥ of damage every tick (although damage immunity reduces this to once every half-second). Magma blocks do not destroy i
-[21:33:44] [Async Chat Thread - #20/INFO]: <AlphaJack> ok
-[21:34:06] [Async Chat Thread - #20/INFO]: <phi> Come sei comparso?
-[21:34:14] [Async Chat Thread - #20/INFO]: <AlphaJack> cadendo
-[21:34:58] [Async Chat Thread - #20/INFO]: <AlphaJack> secondo te
-[21:35:09] [Async Chat Thread - #20/INFO]: <AlphaJack> dove scaviamo per il fossato?
-[21:35:20] [Async Chat Thread - #20/INFO]: <phi> Non so, dovremmo fare una cosa sotterranea
-[21:35:26] [Async Chat Thread - #20/INFO]: <AlphaJack> di lato del tunnel?
-[21:35:33] [Async Chat Thread - #20/INFO]: <AlphaJack> si passa con le barche?
-[21:35:35] [Async Chat Thread - #20/INFO]: <phi> Oppure spostare quell'ingresso
-[21:35:40] [Async Chat Thread - #20/INFO]: <phi> Non lo so
-[22:00:53] [Async Chat Thread - #21/INFO]: <AlphaJack> ho una spada con looting 3 adesso
-[22:01:10] [Async Chat Thread - #21/INFO]: <phi> Se hai visto ho incantato dei libri
-[22:01:20] [Async Chat Thread - #21/INFO]: <AlphaJack> comunque gli archi quasi rotti si possono combinare tra loro per farne di nuovi
-[22:02:00] [Async Chat Thread - #21/INFO]: <phi> Ah
-[22:21:04] [Async Chat Thread - #22/INFO]: <phi> Lagga
-[22:30:30] [Async Chat Thread - #23/INFO]: <AlphaJack> fede, se vuoi ho trovato un altro arco incantato
-[22:30:40] [Async Chat Thread - #23/INFO]: <phi> Tienilo pure
-[22:30:45] [Async Chat Thread - #23/INFO]: <phi> Non uso gli archi di solito
-[22:30:57] [Async Chat Thread - #23/INFO]: <AlphaJack> sai come si fanno i banner?
-[22:32:05] [Async Chat Thread - #24/INFO]: <phi> Sí, ne ho fatto uno
-[22:32:13] [Async Chat Thread - #24/INFO]: <phi> Bastoncino e sei di lana
-[22:33:31] [Async Chat Thread - #25/INFO]: <AlphaJack> per quanti banner?
-[22:33:34] [Async Chat Thread - #25/INFO]: <phi> Uno
-[22:33:38] [Async Chat Thread - #25/INFO]: <AlphaJack> cavolo
-[22:33:47] [Async Chat Thread - #25/INFO]: <phi> Va be', abbiamo lana infinita
-[22:33:50] [Async Chat Thread - #25/INFO]: <phi> Tanta anche
-[22:33:58] [Async Chat Thread - #25/INFO]: <phi> Quanti stendardi volevi?
-[22:34:08] [Async Chat Thread - #25/INFO]: <AlphaJack> nah, avevo visto come fare un divano
-[22:34:15] [Async Chat Thread - #25/INFO]: <phi> Divano?
-[22:34:23] [Async Chat Thread - #25/INFO]: <phi> Con la lana o con gli stendardi?
-[22:34:28] [Async Chat Thread - #25/INFO]: <AlphaJack> stendardi
-[22:34:33] [Async Chat Thread - #25/INFO]: <phi> Wot
-[22:35:18] [Async Chat Thread - #25/INFO]: <phi> VAROLABESTIAAA
-[22:37:02] [Async Chat Thread - #26/INFO]: <phi> Un creeper ha distrutto due farm
-[22:38:19] [Server thread/WARN]: AlphaJack moved too quickly! 0.0,11.995200233459386,-0.009583507885999154
-[22:38:19] [Server thread/WARN]: AlphaJack moved too quickly! 0.0,11.877600231170568,-0.009489551926332496
-[22:39:17] [Async Chat Thread - #27/INFO]: <phi> Jack hai tu il vetro?
-[22:39:20] [Async Chat Thread - #27/INFO]: <phi> O devo farne?
-[22:39:46] [Async Chat Thread - #27/INFO]: <AlphaJack> QUALI FARM
-[22:39:52] [Async Chat Thread - #27/INFO]: <AlphaJack> COME CI È ARRIVATO
-[22:39:55] [Async Chat Thread - #27/INFO]: <phi> Solo quella di bambù per fortuna
-[22:40:01] [Async Chat Thread - #27/INFO]: <AlphaJack> oh dio grazie
-[22:40:14] [Async Chat Thread - #27/INFO]: <phi> Che ne so, finché il recinto non viene chiuso serve a poco
-[22:42:46] [Async Chat Thread - #28/INFO]: <AlphaJack> la roba dov'è?
-[22:42:56] [Async Chat Thread - #28/INFO]: <phi> cE L'HO IO
-[22:43:02] [Async Chat Thread - #28/INFO]: <AlphaJack> butta
-[22:44:00] [Async Chat Thread - #28/INFO]: <AlphaJack> dammi
-[22:44:20] [Async Chat Thread - #28/INFO]: <phi> Che fai?
-[22:44:28] [Async Chat Thread - #28/INFO]: <AlphaJack> prima la chest
-[22:44:40] [Async Chat Thread - #28/INFO]: <phi> La chest non l'ha lasciata
-[22:44:49] [Async Chat Thread - #28/INFO]: <AlphaJack> dammi la roba
-[22:44:56] [Async Chat Thread - #28/INFO]: <phi> Non serviva distruggessi tutto
-[22:45:00] [Async Chat Thread - #28/INFO]: <AlphaJack> plis
-[22:45:07] [Async Chat Thread - #28/INFO]: <AlphaJack> thx
-[22:45:20] [Async Chat Thread - #28/INFO]: <phi> Non ho capito perché hai distrutto
-[22:49:51] [User Authenticator #10/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[22:50:01] [Server thread/INFO]: Gasolio[/192.168.196.170:49546] logged in with entity id 30305 at ([world]-243.3714870787761, 67.0, 19.37799187864163)
-[22:50:13] [Async Chat Thread - #29/INFO]: <phi> Che laggata pazzesca
-[22:50:17] [Async Chat Thread - #29/INFO]: <AlphaJack> gia
-[22:50:22] [Async Chat Thread - #29/INFO]: <phi> Mi ha levato gli ultimi quattro blocchi piazzati
-[22:50:28] [Async Chat Thread - #29/INFO]: <phi> Buonasera comunque
-[22:50:34] [Async Chat Thread - #29/INFO]: <Gasolio> buonasega
-[22:50:38] [Async Chat Thread - #29/INFO]: <Gasolio> diogaio
-[22:50:55] [Async Chat Thread - #29/INFO]: <AlphaJack> un creeper ha danneggiato 3 farm
-[22:50:56] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[22:50:56] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[22:51:04] [Async Chat Thread - #29/INFO]: <Gasolio> dio cancello
-[22:51:19] [Async Chat Thread - #29/INFO]: <phi> La prossima volta evitate di togliere i recinti
-[22:51:54] [Async Chat Thread - #29/INFO]: <Gasolio> è apposto la farm di scheletri?
-[22:51:58] [Async Chat Thread - #29/INFO]: <AlphaJack> si
-[22:52:03] [Async Chat Thread - #29/INFO]: <Gasolio> figa
-[22:52:04] [Async Chat Thread - #29/INFO]: <AlphaJack> devi stare un po' sopra
-[22:52:07] [Async Chat Thread - #29/INFO]: <AlphaJack> dal vetro
-[22:52:11] [Async Chat Thread - #29/INFO]: <AlphaJack> e dopo puoi scendere
-[22:52:14] [Async Chat Thread - #29/INFO]: <phi> Io vado a dormire
-[22:52:16] [Async Chat Thread - #29/INFO]: <Gasolio> ah quindi non hai messo l'acqua
-[22:52:17] [Async Chat Thread - #29/INFO]: <AlphaJack> non ho messo la soulsand
-[22:52:18] [Async Chat Thread - #29/INFO]: <phi> 'Notte siori
-[22:52:21] [Async Chat Thread - #29/INFO]: <AlphaJack> notte
-[22:52:23] [Server thread/INFO]: phi lost connection: Disconnected
-[22:52:24] [Async Chat Thread - #29/INFO]: <Gasolio> notte
-[22:52:24] [Server thread/INFO]: phi left the game
-[22:52:29] [Async Chat Thread - #29/INFO]: <Gasolio> allora bisogna farlo
-[22:54:17] [Async Chat Thread - #30/INFO]: <Gasolio> chi è che ha fatto sta collina del cazzo
-[22:54:23] [Async Chat Thread - #30/INFO]: <Gasolio> avevo spianato tutto barcamadonna
-[22:54:32] [Async Chat Thread - #30/INFO]: <AlphaJack> per il passaggio via acqua
-[22:54:56] [Async Chat Thread - #30/INFO]: <Gasolio> ma scherzi
-[22:55:01] [Async Chat Thread - #30/INFO]: <Gasolio> non puoi fermarti a sx?
-[22:55:18] [Async Chat Thread - #30/INFO]: <Gasolio> 5 blocchi in meno ed evitiamo sto obrobbrio
-[22:56:53] [Async Chat Thread - #31/INFO]: <AlphaJack> secchi
-[22:57:01] [Async Chat Thread - #31/INFO]: <AlphaJack> dammene uno se ne hai
-[22:57:02] [Async Chat Thread - #31/INFO]: <Gasolio> com'è che sei gia tutto incantato-?
-[22:57:21] [Async Chat Thread - #31/INFO]: <AlphaJack> frop degli scheletri
-[22:57:23] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[22:57:23] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[22:57:29] [Async Chat Thread - #31/INFO]: <AlphaJack> ma che cazzo hanno
-[22:57:34] [Async Chat Thread - #31/INFO]: <Gasolio> e la spada?
-[22:57:42] [Async Chat Thread - #31/INFO]: <AlphaJack> incantata a livello 30
-[22:57:58] [Async Chat Thread - #31/INFO]: <Gasolio> ti serve il sekkio
-[22:58:04] [Async Chat Thread - #31/INFO]: <AlphaJack> grazziella
-[22:58:10] [Async Chat Thread - #31/INFO]: <AlphaJack> dietro di te
-[23:00:18] [User Authenticator #11/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
-[23:00:34] [Server thread/INFO]: RichyZ99[/192.168.196.242:50479] logged in with entity id 31257 at ([world]-256.690509708454, 70.0, 842.1654034217624)
-[23:00:37] [Server thread/WARN]: AlphaJack moved too quickly! -11.060107077298824,4.4375,12.220661888038507
-[23:01:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 11.97, 17.69, 15.08
-[23:01:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 11.23, 17.36, 15.0
-[23:01:26] [Async Chat Thread - #32/INFO]: <RichyZ99> scusate se sono entraot
-[23:01:29] [Async Chat Thread - #32/INFO]: <Gasolio> lagga dio mostro
-[23:01:29] [Async Chat Thread - #32/INFO]: <RichyZ99> entrato
-[23:01:30] [Async Chat Thread - #32/INFO]: <AlphaJack> dio
-[23:01:46] [Async Chat Thread - #32/INFO]: <AlphaJack> seeeeeeeeeee
-[23:01:54] [Async Chat Thread - #32/INFO]: <RichyZ99> L'amico non riesce a caricare i chunk
-[23:01:59] [Async Chat Thread - #32/INFO]: <AlphaJack> dio caro
-[23:02:08] [Async Chat Thread - #32/INFO]: <AlphaJack> 2 enderpirla
-[23:02:14] [Async Chat Thread - #32/INFO]: <RichyZ99> Grandeee
-[23:02:28] [Async Chat Thread - #32/INFO]: <AlphaJack> se sapevo che entravi neanche lo attaccavo l'enderman
-[23:02:33] [Async Chat Thread - #32/INFO]: <Gasolio> il lag mi ha perso due secchi di acqua
-[23:02:40] [Async Chat Thread - #32/INFO]: <AlphaJack> portaci dei cactus se li trovi
-[23:02:51] [Async Chat Thread - #32/INFO]: <AlphaJack> e sabbia
-[23:02:54] [Async Chat Thread - #32/INFO]: <RichyZ99> È molto dura esplorare in queste condizioni
-[23:03:03] [Async Chat Thread - #32/INFO]: <RichyZ99> Se vi serve sabbia, a casa mia ce n'è un po'
-[23:03:05] [Async Chat Thread - #32/INFO]: <AlphaJack> mi ero incastrato
-[23:03:46] [Async Chat Thread - #32/INFO]: <RichyZ99> trovato altro tempio
-[23:03:51] [Async Chat Thread - #32/INFO]: <AlphaJack> chi ha moltiplicato i polli?
-[23:04:03] [Async Chat Thread - #32/INFO]: <Gasolio> io e non ucciderli please
-[23:04:11] [Async Chat Thread - #32/INFO]: <Gasolio> non sono quelli che fanno laggare
-[23:04:15] [Async Chat Thread - #32/INFO]: <AlphaJack> non l'ho fatto a cuor leggero
-[23:05:13] [Async Chat Thread - #32/INFO]: <AlphaJack> le farm dovrebbero essere di nuovo operative
-[23:05:42] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[23:05:43] [Server thread/WARN]: AlphaJack moved wrongly!
-[23:05:47] [Async Chat Thread - #32/INFO]: <AlphaJack> diopane
-[23:05:49] [Async Chat Thread - #32/INFO]: <AlphaJack> lagga
-[23:07:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 5.39, 9.49, 12.37
-[23:08:20] [Async Chat Thread - #33/INFO]: <RichyZ99> Ho trovato 3 smeraldi nelle casse
-[23:08:48] [Async Chat Thread - #33/INFO]: <AlphaJack> barattiamoli per dei semi
-[23:09:01] [Async Chat Thread - #33/INFO]: <RichyZ99> Io li baratterei con tua madre, ma va be'
-[23:09:18] [Async Chat Thread - #33/INFO]: <RichyZ99> Lori
-[23:09:22] [Async Chat Thread - #33/INFO]: <Gasolio> wtf
-[23:09:23] [Async Chat Thread - #33/INFO]: <RichyZ99> piove
-[23:09:28] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[23:09:29] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[23:09:37] [Async Chat Thread - #33/INFO]: <AlphaJack> ma perchè cambiate il meteo?
-[23:09:44] [Server thread/INFO]: Gasolio issued server command: /weather thunder
-[23:09:44] [Server thread/INFO]: [Gasolio: Set the weather to rain & thunder]
-[23:09:49] [Async Chat Thread - #33/INFO]: <Gasolio> divertiti
-[23:10:15] [Async Chat Thread - #33/INFO]: <Gasolio> mai pensato che possa far laggare? magari più dei polli
-[23:10:24] [Async Chat Thread - #33/INFO]: <AlphaJack> no
-[23:10:33] [Async Chat Thread - #33/INFO]: <RichyZ99> La cosa che qui fa laggare sono io che vado in chunk nuovi
-[23:10:41] [Async Chat Thread - #33/INFO]: <AlphaJack> evita grazie
-[23:11:10] [Async Chat Thread - #33/INFO]: <AlphaJack> mi sarei stufato di rispaccare gli stessi blocchi piu e piu volte
-[23:11:25] [Async Chat Thread - #33/INFO]: <AlphaJack> da solo non dovrebbe fare sti scherzi
-[23:11:52] [Server thread/INFO]: Gasolio issued server command: /weather clear
-[23:11:52] [Server thread/INFO]: [Gasolio: Set the weather to clear]
-[23:12:11] [Async Chat Thread - #33/INFO]: <AlphaJack> ma non c'è un'impostazione server per il meteo?
-[23:12:20] [Async Chat Thread - #33/INFO]: <RichyZ99> non lo so
-[23:12:45] [Async Chat Thread - #33/INFO]: <AlphaJack> 7 stack di frecce bastano?
-[23:12:55] [Async Chat Thread - #33/INFO]: <RichyZ99> per ora sì
-[23:13:20] [Async Chat Thread - #33/INFO]: <RichyZ99> comunque a Sud della base ci sono posti bellissimi
-[23:16:42] [Async Chat Thread - #34/INFO]: <RichyZ99> raga coord della base?
-[23:16:45] [Async Chat Thread - #34/INFO]: <RichyZ99> mi sono perso
-[23:16:58] [Async Chat Thread - #34/INFO]: <AlphaJack> -209 61 61
-[23:20:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[23:20:57] [Paper Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Paper bug.
-[23:21:03] [Paper Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
-[23:21:09] [Paper Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
-[23:21:16] [Paper Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
-[23:21:24] [Paper Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
-[23:21:32] [Paper Watchdog Thread/ERROR]: If you are unsure or still think this is a Paper bug, please report this to https://github.com/PaperMC/Paper/issues
-[23:21:38] [Paper Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
-[23:22:05] [Paper Watchdog Thread/ERROR]: Paper version: git-Paper-122 (MC: 1.15.2)
-[23:22:24] [Paper Watchdog Thread/ERROR]: ------------------------------
-[23:22:31] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[23:06:42] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[23:06:42] [Server thread/INFO]: Loading properties
+[23:06:42] [Server thread/INFO]: This server is running Paper version git-Paper-126 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[23:06:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:06:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:06:42] [Server thread/INFO]: Debug logging is disabled
+[23:06:43] [Server thread/INFO]: Default game type: SURVIVAL
+[23:06:43] [Server thread/INFO]: Generating keypair
+[23:06:43] [Server thread/INFO]: Starting Minecraft server on mc1.gamehosting.it:25578
+[23:06:43] [Server thread/INFO]: Using epoll channel type
+[23:06:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:06:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:06:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:06:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:06:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:06:43] [Server thread/INFO]: Preparing level "world"
+[23:06:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[23:06:45] [Server thread/INFO]: Loaded 6 recipes
+[23:06:46] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:06:46] [Server thread/INFO]: Mob Spawn Range: 8
+[23:06:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:06:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:06:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:06:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:06:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:06:46] [Server thread/INFO]: Max TNT Explosions: 100
+[23:06:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:06:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:06:46] [Server thread/INFO]: View Distance: 12
+[23:06:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:06:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:06:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:06:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:06:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:06:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:06:46] [Server thread/INFO]: Mob Spawn Range: 8
+[23:06:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:06:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:06:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:06:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:06:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:06:46] [Server thread/INFO]: Max TNT Explosions: 100
+[23:06:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:06:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:06:46] [Server thread/INFO]: View Distance: 12
+[23:06:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:06:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:06:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:06:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:06:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:06:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:06:46] [Server thread/INFO]: Mob Spawn Range: 8
+[23:06:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:06:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:06:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:06:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:06:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:06:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:06:46] [Server thread/INFO]: Max TNT Explosions: 100
+[23:06:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:06:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:06:46] [Server thread/INFO]: View Distance: 12
+[23:06:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:06:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:06:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:06:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:06:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:06:47] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[23:06:47] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:48] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:48] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:48] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:53] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[23:06:53] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:53] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:53] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[23:06:54] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:55] [Server thread/INFO]: Preparing spawn area: 1%
+[23:06:55] [Server thread/INFO]: Preparing spawn area: 1%
+[23:06:55] [Server thread/INFO]: Preparing spawn area: 100%
+[23:06:55] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[23:06:55] [Server thread/INFO]: Time elapsed: 8852 ms
+[23:06:55] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[23:06:56] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:56] [Server thread/INFO]: Preparing spawn area: 90%
+[23:06:56] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[23:06:57] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[23:06:57] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[23:06:57] [Server thread/INFO]: Time elapsed: 1998 ms
+[23:06:57] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[23:06:58] [Server thread/INFO]: Preparing spawn area: 0%
+[23:06:58] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[23:06:58] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:06:59] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[23:06:59] [Server thread/INFO]: Time elapsed: 1350 ms
+[23:06:59] [Server thread/INFO]: Done (15.594s)! For help, type "help"
+[23:06:59] [Server thread/INFO]: Timings Reset
+[23:07:35] [Server thread/INFO]: There are 0 of a max 10 players online: 
+[23:08:11] [Server thread/INFO]: There are 0 of a max 10 players online: 

@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga_hills": "2020-03-01 23:47:36 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

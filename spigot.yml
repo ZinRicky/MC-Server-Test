@@ -11,19 +11,12 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 12
-commands:
-  log: true
-  tab-complete: 0
-  send-namespaced: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
 settings:
+  save-user-cache-on-stop-only: false
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
   timeout-time: 60
@@ -31,11 +24,6 @@ settings:
   restart-script: ./start.sh
   netty-threads: 4
   bungeecord: false
-  player-shuffle: 0
-  user-cache-size: 1000
-  moved-wrongly-threshold: 0.0625
-  save-user-cache-on-stop-only: true
-  sample-count: 12
   debug: false
   attribute:
     maxHealth:
@@ -44,33 +32,36 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
 messages:
-  restart: Server is restarting
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
+commands:
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  tab-complete: 0
+  send-namespaced: true
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: true
-    hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
-    item-despawn-rate: 6000
-    wither-spawn-sound-radius: 0
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
-    view-distance: default
-    mob-spawn-range: 6
+    mob-spawn-range: 8
     hopper-amount: 1
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -84,10 +75,19 @@ world-settings:
     seed-outpost: 165745296
     seed-slime: 987234911
     max-tnt-per-tick: 100
-    max-entity-collisions: 2
+    view-distance: default
+    enable-zombie-pigmen-portal-spawns: true
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    nerf-spawner-mobs: false
+    max-entity-collisions: 8
     merge-radius:
-      item: 4.0
-      exp: 6.0
+      exp: 3.0
+      item: 2.5
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -106,12 +106,12 @@ world-settings:
       sweetberry-modifier: 100
       kelp-modifier: 100
     entity-activation-range:
-      animals: 16
-      monsters: 24
+      animals: 32
+      monsters: 32
       raiders: 48
-      misc: 8
+      misc: 16
       water: 16
-      tick-inactive-villagers: false
+      tick-inactive-villagers: true
     entity-tracking-range:
       players: 48
       animals: 48
@@ -130,7 +130,7 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tick-time:
-      tile: 1000
-      entity: 1000
+      tile: 50
+      entity: 50
     squid-spawn-range:
       min: 45.0
