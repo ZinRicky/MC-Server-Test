@@ -14,7 +14,7 @@ verbose: false
 config-version: 20
 settings:
   load-permissions-yml-before-plugins: true
-  bungee-online-mode: true
+  bungee-online-mode: false
   suggest-player-names-when-null-tab-completions: true
   region-file-cache-size: 256
   incoming-packet-spam-threshold: 300
@@ -27,8 +27,8 @@ settings:
     online-mode: false
     secret: ''
   watchdog:
-    early-warning-every: 5000
-    early-warning-delay: 10000
+    early-warning-every: 60000
+    early-warning-delay: 120000
   spam-limiter:
     tab-spam-increment: 1
     tab-spam-limit: 500
@@ -53,6 +53,7 @@ timings:
   hidden-config-entries:
   - database
   - settings.bungeecord-addresses
+  - settings.velocity-support.secret
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -61,7 +62,7 @@ world-settings:
     per-player-mob-spawns: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
-    optimize-explosions: false
+    optimize-explosions: true
     disable-teleportation-suffocation-check: false
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
@@ -69,36 +70,36 @@ world-settings:
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     experience-merge-max-value: -1
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     max-auto-save-chunks-per-tick: 24
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 8
+    max-entity-collisions: 2
     disable-creeper-lingering-effect: false
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     count-all-mobs-for-spawning: false
-    keep-spawn-loaded-range: 10
-    keep-spawn-loaded: true
+    keep-spawn-loaded-range: -1
+    keep-spawn-loaded: false
     auto-save-interval: -1
     armor-stands-do-collision-entity-lookups: true
     seed-based-feature-search: true
     nether-ceiling-void-damage-height: 0
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 3
     water-over-lava-flow-speed: 5
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     bed-search-radius: 1
     fix-zero-tick-instant-grow-farms: true
     allow-non-player-entities-on-scoreboards: false
     portal-search-radius: 128
     portal-create-radius: 16
     disable-explosion-knockback: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 2
     parrots-are-unaffected-by-player-movement: false
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
     prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
     spawner-nerfed-mobs-should-jump: false
@@ -106,7 +107,7 @@ world-settings:
     allow-leashing-undead-horse: false
     baby-zombie-movement-modifier: 0.5
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 3
     alt-item-despawn-rate:
       enabled: false
       items:
@@ -114,7 +115,7 @@ world-settings:
     game-mechanics:
       disable-pillager-patrols: false
       scan-for-legacy-ender-dragon: true
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       nerf-pigmen-from-nether-portals: false
       shield-blocking-delay: 5
       disable-end-credits: false
@@ -132,8 +133,8 @@ world-settings:
       MinimumTicks: 100
       MaximumTicks: 600
     despawn-ranges:
-      soft: 32
-      hard: 128
+      soft: 28
+      hard: 96
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
