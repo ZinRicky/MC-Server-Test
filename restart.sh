@@ -42,4 +42,4 @@ while [ $StopChecks -lt 30 ]; do
 done
 
 echo "Restarting now."
-sudo reboot
+bash /home/pi/minecraft/start.sh
