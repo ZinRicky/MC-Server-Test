@@ -1,161 +1,313 @@
-[15:37:25] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[15:37:25] [Server thread/INFO]: Loading properties
-[15:37:26] [Server thread/INFO]: This server is running Paper version git-Paper-158 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[15:37:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:37:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:37:27] [Server thread/INFO]: Debug logging is disabled
-[15:37:28] [Server thread/INFO]: Default game type: SURVIVAL
-[15:37:28] [Server thread/INFO]: Generating keypair
-[15:37:34] [Server thread/INFO]: Starting Minecraft server on 192.168.196.74:25565
-[15:37:34] [Server thread/INFO]: Using default channel type
-[15:37:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:37:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:37:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:37:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:37:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:37:35] [Server thread/INFO]: Preparing level "world"
-[15:37:36] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[15:40:03] [Server thread/INFO]: Loaded 6 recipes
-[15:40:06] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:40:06] [Server thread/INFO]: Mob Spawn Range: 6
-[15:40:06] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:40:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:40:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:40:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:40:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:40:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[15:40:06] [Server thread/INFO]: Max TNT Explosions: 100
-[15:40:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:40:06] [Server thread/INFO]: View Distance: 6
-[15:40:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:40:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:40:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:40:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:40:06] [Server thread/INFO]: Item Merge Radius: 4.0
-[15:40:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:40:08] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:40:08] [Server thread/INFO]: Mob Spawn Range: 6
-[15:40:08] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:40:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:40:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:40:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:40:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[15:40:08] [Server thread/INFO]: Max TNT Explosions: 100
-[15:40:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:40:08] [Server thread/INFO]: View Distance: 6
-[15:40:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:40:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:40:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:40:08] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:40:08] [Server thread/INFO]: Item Merge Radius: 4.0
-[15:40:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:40:08] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:40:08] [Server thread/INFO]: Mob Spawn Range: 6
-[15:40:08] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:40:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:40:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:40:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:40:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:40:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[15:40:08] [Server thread/INFO]: Max TNT Explosions: 100
-[15:40:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:40:08] [Server thread/INFO]: View Distance: 6
-[15:40:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:40:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:40:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:40:08] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:40:08] [Server thread/INFO]: Item Merge Radius: 4.0
-[15:40:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:40:09] [Server thread/INFO]: Done (153.298s)! For help, type "help"
-[15:40:09] [Server thread/INFO]: Timings Reset
-[19:29:09] [User Authenticator #1/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
-[19:29:19] [Server thread/INFO]: RichyZ99[/192.168.196.242:50594] logged in with entity id 2 at ([world]-232.70000002533197, 74.0000002, 876.299999974668)
-[19:29:57] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[19:30:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 12.43, 17.83, 19.22
-[19:43:13] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[19:51:36] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[19:53:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[19:56:37] [User Authenticator #2/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[19:56:47] [Server thread/INFO]: phi[/192.168.196.201:58470] logged in with entity id 2543 at ([world]-212.75552211318933, 80.0, 51.73247484700673)
-[19:56:50] [Async Chat Thread - #0/INFO]: <RichyZ99> Salve
-[19:57:06] [Server thread/INFO]: phi lost connection: Disconnected
-[19:57:07] [Server thread/INFO]: phi left the game
-[19:57:20] [User Authenticator #2/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[19:57:33] [Server thread/INFO]: phi[/192.168.196.201:58526] logged in with entity id 2785 at ([world]-212.75552211318933, 80.0, 51.73247484700673)
-[19:57:51] [Server thread/INFO]: phi lost connection: Disconnected
-[19:57:51] [Server thread/INFO]: phi left the game
-[19:57:58] [User Authenticator #2/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[19:58:01] [Server thread/INFO]: phi[/192.168.196.201:58577] logged in with entity id 2999 at ([world]-212.75552211318933, 80.0, 51.73247484700673)
-[19:58:28] [Server thread/INFO]: phi lost connection: Disconnected
-[19:58:29] [Server thread/INFO]: phi left the game
-[19:58:38] [User Authenticator #2/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[19:58:39] [Server thread/INFO]: phi[/192.168.196.201:58656] logged in with entity id 3240 at ([world]-212.75552211318933, 80.0, 51.73247484700673)
-[19:59:00] [Async Chat Thread - #1/INFO]: <RichyZ99> Ce la puoi faf
-[19:59:08] [Server thread/INFO]: phi lost connection: Disconnected
-[19:59:08] [Server thread/INFO]: phi left the game
-[19:59:44] [User Authenticator #3/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[19:59:46] [Server thread/INFO]: phi[/192.168.196.201:58745] logged in with entity id 3515 at ([world]-212.75552211318933, 80.0, 51.73247484700673)
-[19:59:54] [Server thread/INFO]: RichyZ99 issued server command: /stop
-[19:59:54] [Server thread/INFO]: [RichyZ99: Stopping the server]
-[19:59:54] [Server thread/INFO]: Stopping server
-[19:59:54] [Server thread/INFO]: Saving players
-[19:59:54] [Server thread/INFO]: RichyZ99 lost connection: Server closed
-[19:59:54] [Server thread/INFO]: RichyZ99 left the game
-[19:59:54] [Server thread/INFO]: phi lost connection: Server closed
-[19:59:54] [Server thread/INFO]: phi left the game
-[19:59:55] [Server thread/INFO]: Saving worlds
-[19:59:55] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:00:01] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:00:01] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:00:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:39:08] [User Authenticator #20/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[09:39:16] [Server thread/INFO]: Gasolio[/192.168.196.170:49660] logged in with entity id 19276 at ([world]-216.71151429148227, 62.0, 64.82523329910158)
+[09:40:42] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[09:40:42] [Server thread/INFO]: Gasolio left the game
+[09:40:49] [User Authenticator #21/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[09:40:52] [Server thread/INFO]: Gasolio[/192.168.196.170:49777] logged in with entity id 19564 at ([world]-209.29735648698625, 61.0, 58.32120634155175)
+[09:41:44] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[09:41:44] [Server thread/INFO]: Gasolio left the game
+[09:42:26] [User Authenticator #22/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[09:42:29] [Server thread/INFO]: Gasolio[/192.168.196.170:49898] logged in with entity id 19845 at ([world]-209.56919602645124, 63.0, 72.53849674162805)
+[09:43:25] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[09:43:25] [Server thread/INFO]: Gasolio left the game
+[09:48:51] [User Authenticator #23/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[09:48:53] [Server thread/INFO]: Gasolio[/192.168.196.170:50396] logged in with entity id 20137 at ([world]-209.54300824483047, 61.0, 63.213001026644335)
+[10:00:38] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[10:00:38] [Server thread/INFO]: Gasolio left the game
+[10:09:24] [User Authenticator #24/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[10:09:32] [Server thread/INFO]: Gasolio[/192.168.196.170:51862] logged in with entity id 21706 at ([world_nether]133.86514660913062, 78.0, 19.019829824785013)
+[10:09:54] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[10:09:54] [Server thread/INFO]: Gasolio left the game
+[10:10:01] [User Authenticator #24/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[10:10:04] [Server thread/INFO]: Gasolio[/192.168.196.170:51909] logged in with entity id 21799 at ([world_nether]133.86514660913062, 78.0, 19.019829824785013)
+[10:10:31] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[10:10:31] [Server thread/INFO]: Gasolio left the game
+[10:15:55] [User Authenticator #25/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[10:15:57] [Server thread/INFO]: Gasolio[/192.168.196.170:52359] logged in with entity id 21892 at ([world_nether]133.86514660913062, 78.0, 19.019829824785013)
+[10:19:38] [Server thread/INFO]: Gasolio was slain by Wither Skeleton
+[10:22:11] [Server thread/INFO]: Gasolio issued server command: /gamemode creative
+[10:22:11] [Server thread/INFO]: [Gasolio: Set own game mode to Creative Mode]
+[10:22:27] [Server thread/INFO]: Gasolio issued server command: /gamemode survival
+[10:22:27] [Server thread/INFO]: [Gasolio: Set own game mode to Survival Mode]
+[10:22:35] [Server thread/INFO]: Gasolio issued server command: /gamemode creative
+[10:22:35] [Server thread/INFO]: [Gasolio: Set own game mode to Creative Mode]
+[10:22:45] [Server thread/INFO]: Gasolio issued server command: /gamemode survival
+[10:22:45] [Server thread/INFO]: [Gasolio: Set own game mode to Survival Mode]
+[10:38:28] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[10:38:29] [Server thread/INFO]: Gasolio left the game
+[10:43:21] [User Authenticator #26/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[10:43:36] [Server thread/INFO]: Gasolio[/192.168.196.170:54073] logged in with entity id 25037 at ([world]-208.62333969250395, 62.5, 70.0642673612934)
+[10:43:52] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[10:43:52] [Server thread/INFO]: Gasolio left the game
+[10:43:59] [User Authenticator #26/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[10:44:04] [Server thread/INFO]: Gasolio[/192.168.196.170:54112] logged in with entity id 25281 at ([world]-208.62333969250395, 62.5, 70.0642673612934)
+[10:52:32] [Server thread/INFO]: Gasolio issued server command: /give @a minecraft:dark_oak_sapling 1
+[10:52:32] [Server thread/INFO]: [Gasolio: Gave 1 [Dark Oak Sapling] to Gasolio]
+[11:48:16] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[11:48:17] [Server thread/INFO]: Gasolio left the game
+[12:35:02] [User Authenticator #27/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[12:35:17] [Server thread/INFO]: Gasolio[/192.168.196.170:60940] logged in with entity id 33175 at ([world]-209.4370369070205, 62.0, 66.92517120614136)
+[12:35:23] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[12:35:23] [Server thread/INFO]: Gasolio left the game
+[12:35:28] [User Authenticator #27/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[12:35:34] [Server thread/INFO]: Gasolio[/192.168.196.170:60969] logged in with entity id 33372 at ([world]-209.4370369070205, 62.0, 66.92517120614136)
+[12:35:58] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[12:35:59] [Server thread/INFO]: Gasolio left the game
+[12:36:25] [User Authenticator #27/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[12:36:27] [Server thread/INFO]: Gasolio[/192.168.196.170:61030] logged in with entity id 33619 at ([world]-209.4370369070205, 62.0, 66.92517120614136)
+[12:36:53] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[12:36:53] [Server thread/INFO]: Gasolio left the game
+[12:36:59] [User Authenticator #27/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[12:37:00] [Server thread/INFO]: Gasolio[/192.168.196.170:61063] logged in with entity id 33871 at ([world]-209.4370369070205, 62.0, 66.92517120614136)
+[12:40:42] [Server thread/INFO]: Gasolio issued server command: /summon minecraft:creeper
+[12:40:42] [Server thread/INFO]: [Gasolio: Summoned new Creeper]
+[12:40:50] [Server thread/INFO]: Gasolio issued server command: /summon minecraft:creeper
+[12:40:50] [Server thread/INFO]: [Gasolio: Summoned new Creeper]
+[12:58:32] [User Authenticator #28/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
+[12:58:41] [Server thread/INFO]: phi[/192.168.196.201:60996] logged in with entity id 36888 at ([world]-214.0902615054446, 79.0, 57.88797254062496)
+[12:59:14] [Server thread/INFO]: phi lost connection: Disconnected
+[12:59:14] [Server thread/INFO]: phi left the game
+[13:00:04] [User Authenticator #29/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
+[13:00:09] [Server thread/INFO]: phi[/192.168.196.201:61114] logged in with entity id 37049 at ([world]-214.0902615054446, 79.0, 57.88797254062496)
+[13:00:35] [Server thread/INFO]: phi lost connection: Disconnected
+[13:00:35] [Server thread/INFO]: phi left the game
+[13:00:58] [User Authenticator #29/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
+[13:01:00] [Server thread/INFO]: phi[/192.168.196.201:61173] logged in with entity id 37136 at ([world]-214.0902615054446, 79.0, 57.88797254062496)
+[13:01:06] [Async Chat Thread - #6/INFO]: <phi> Olè
+[13:01:22] [Server thread/INFO]: Gasolio lost connection: Disconnected
+[13:01:22] [Server thread/INFO]: Gasolio left the game
+[13:07:47] [User Authenticator #30/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[13:07:58] [Server thread/INFO]: Gasolio[/192.168.196.170:65134] logged in with entity id 37948 at ([world]-208.91400385579664, 61.0, 62.77921418666402)
+[13:08:05] [Async Chat Thread - #7/INFO]: <Gasolio> sega
+[13:08:09] [Async Chat Thread - #7/INFO]: <phi> Salve
+[13:08:12] [Async Chat Thread - #7/INFO]: <Gasolio> gradisce?
+[13:08:19] [Async Chat Thread - #7/INFO]: <phi> Hai modificato tu?
+[13:08:23] [Async Chat Thread - #7/INFO]: <Gasolio> sto levando questo obbrobbbrio
+[13:08:26] [Async Chat Thread - #7/INFO]: <Gasolio> certamente
+[13:08:35] [Async Chat Thread - #7/INFO]: <Gasolio> era osceno
+[13:08:37] [Async Chat Thread - #7/INFO]: <phi> Quale obbbbrobbbbrio?
+[13:08:41] [Async Chat Thread - #7/INFO]: <Gasolio> quel blocco è indecente
+[13:08:44] [Async Chat Thread - #7/INFO]: <phi> Questa stanza un po'
+[13:08:51] [Async Chat Thread - #7/INFO]: <phi> Il granito levigato?
+[13:08:53] [Async Chat Thread - #7/INFO]: <Gasolio> si
+[13:08:57] [Async Chat Thread - #7/INFO]: <Gasolio> quello, orribile
+[13:08:58] [Async Chat Thread - #7/INFO]: <phi> Lol
+[13:09:03] [Async Chat Thread - #7/INFO]: <phi> Faceva un po' garage
+[13:09:05] [Async Chat Thread - #7/INFO]: <Gasolio> quindi sto modificando
+[13:09:18] [Async Chat Thread - #7/INFO]: <phi> Hai messo te un altro letto ed i banchi da lavoro di sopra?
+[13:09:26] [Async Chat Thread - #7/INFO]: <Gasolio> si lol
+[13:09:30] [Async Chat Thread - #7/INFO]: <phi> Ottimo
+[13:09:39] [Async Chat Thread - #7/INFO]: <Gasolio> è un problema?
+[13:09:40] [Async Chat Thread - #7/INFO]: <phi> Non mi piacevano i banchi da lavoro nel pavimento
+[13:09:47] [Async Chat Thread - #7/INFO]: <phi> Lol
+[13:09:48] [Async Chat Thread - #7/INFO]: <Gasolio> ah vabbè mettili dove vuoi
+[13:09:53] [Async Chat Thread - #7/INFO]: <Gasolio> ma è importante ci siano
+[13:10:05] [Async Chat Thread - #7/INFO]: <phi> Eh certo
+[13:10:06] [Async Chat Thread - #7/INFO]: <Gasolio> li avevo messi lì così non ingombrano
+[13:11:13] [Async Chat Thread - #8/INFO]: <Gasolio> da fuori?
+[13:11:19] [Async Chat Thread - #8/INFO]: <Gasolio> l'ingresso?
+[13:11:20] [Async Chat Thread - #8/INFO]: <phi> Non è male
+[13:11:22] [Async Chat Thread - #8/INFO]: <Gasolio> che mi dici?
+[13:11:29] [Async Chat Thread - #8/INFO]: <phi> Bello
+[13:11:39] [Async Chat Thread - #8/INFO]: <Gasolio> mooooooooooooooooolto meglio di prima
+[13:11:46] [Async Chat Thread - #8/INFO]: <Gasolio> era orribile e anche asimmetrico
+[13:11:48] [Async Chat Thread - #8/INFO]: <phi> Almeno è tutto a tema legnoso
+[13:12:10] [Async Chat Thread - #8/INFO]: <phi> La pedana va messa però
+[13:12:19] [Async Chat Thread - #8/INFO]: <Gasolio> questa
+[13:12:21] [Async Chat Thread - #8/INFO]: <phi> Ah lol
+[13:12:38] [Async Chat Thread - #8/INFO]: <phi> Stavo per lamentarmi che non esistessero pedane di legna diversa
+[13:12:51] [Async Chat Thread - #8/INFO]: <phi> Dove hai trovato la querciascura?
+[13:13:02] [Async Chat Thread - #8/INFO]: <Gasolio> l'ho farmata
+[13:13:07] [Async Chat Thread - #8/INFO]: <phi> Ottimo
+[13:13:08] [Async Chat Thread - #8/INFO]: <Gasolio> c'erano i sapling
+[13:13:21] [Async Chat Thread - #8/INFO]: <phi> Se hai visto io ho fatto un boschetto di abeti
+[13:13:35] [Async Chat Thread - #8/INFO]: <Gasolio> qua sopra?
+[13:13:41] [Async Chat Thread - #8/INFO]: <phi> Sí
+[13:13:46] [Async Chat Thread - #8/INFO]: <Gasolio> allora si ho visto
+[13:14:15] [Async Chat Thread - #8/INFO]: <Gasolio> ho trovato dei libri del mending
+[13:14:20] [Async Chat Thread - #8/INFO]: <phi> Del che?
+[13:14:45] [Async Chat Thread - #8/INFO]: <Gasolio> non sai cos'è?
+[13:14:54] [Async Chat Thread - #8/INFO]: <Gasolio> è il miglior incantesimo esistente
+[13:14:55] [Async Chat Thread - #8/INFO]: <phi> No lol
+[13:15:04] [Async Chat Thread - #8/INFO]: <Gasolio> ed è praticamente introvabile
+[13:15:07] [Async Chat Thread - #8/INFO]: <phi> Ottimo
+[13:15:10] [Async Chat Thread - #8/INFO]: <phi> Come si usano?
+[13:15:14] [Async Chat Thread - #8/INFO]: <phi> Cosa fa l'incantesimo
+[13:15:15] [Async Chat Thread - #8/INFO]: <Gasolio> dona indistruttibilità eterna
+[13:15:16] [Async Chat Thread - #8/INFO]: <phi> ?
+[13:15:19] [Async Chat Thread - #8/INFO]: <phi> AH
+[13:15:29] [Async Chat Thread - #8/INFO]: <phi> A tutto o solo ad un oggetto alla volta?
+[13:15:50] [Async Chat Thread - #8/INFO]: <Gasolio> lo strumento o quel che è, si ripara automaticamente attraverso l'esperienza
+[13:16:01] [Async Chat Thread - #8/INFO]: <phi> Molto bene
+[13:16:10] [Async Chat Thread - #8/INFO]: <phi> Vado a mangiare, a dopo (forse)
+[13:16:15] [Async Chat Thread - #8/INFO]: <Gasolio> anche io
+[13:16:17] [Async Chat Thread - #8/INFO]: <Gasolio> dai torna
+[13:16:19] [Async Chat Thread - #8/INFO]: <phi> Buon pranzo
+[13:16:21] [Async Chat Thread - #8/INFO]: <Gasolio> mi fai un po di compagnia
+[13:16:23] [Async Chat Thread - #8/INFO]: <phi> Dipende da cosa ho da fare
+[13:16:26] [Async Chat Thread - #8/INFO]: <phi> Dopo vedo
+[13:16:26] [Async Chat Thread - #8/INFO]: <Gasolio> grazia altrettanto
+[13:16:29] [Async Chat Thread - #8/INFO]: <phi> Grazie
+[13:16:30] [Server thread/INFO]: phi lost connection: Disconnected
+[13:16:30] [Server thread/INFO]: phi left the game
+[13:21:47] [Server thread/INFO]: [Server] Hai trovato il Mending?
+[13:23:11] [User Authenticator #31/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
+[13:23:24] [Server thread/INFO]: RichyZ99[/192.168.196.242:51551] logged in with entity id 39622 at ([world]-231.74007871807993, 74.0, 867.2347141908509)
+[13:23:42] [Async Chat Thread - #9/INFO]: <RichyZ99> Salve
+[13:23:46] [Server thread/INFO]: RichyZ99 issued server command: /tps
+[13:26:11] [Async Chat Thread - #10/INFO]: <RichyZ99> wwwwwwwwwwwwwwwwwwwwwwww
+[13:28:07] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
+[13:28:07] [Server thread/INFO]: RichyZ99 left the game
+[14:15:44] [User Authenticator #32/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
+[14:15:57] [Server thread/INFO]: phi[/192.168.196.201:63476] logged in with entity id 45415 at ([world]-215.37711529721915, 66.0, 56.87642208126603)
+[14:16:15] [Async Chat Thread - #11/INFO]: <phi> Le varole
+[14:16:40] [Server thread/WARN]: phi was kicked due to keepalive timeout!
+[14:16:40] [Server thread/INFO]: phi lost connection: Timed out
+[14:16:40] [Server thread/INFO]: phi left the game
+[14:16:51] [User Authenticator #33/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
+[14:16:54] [Server thread/INFO]: phi[/192.168.196.201:63762] logged in with entity id 45503 at ([world]-215.37711529721915, 66.0, 56.87642208126603)
+[14:17:19] [User Authenticator #33/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
+[14:17:21] [Server thread/INFO]: RichyZ99[/192.168.196.242:52083] logged in with entity id 45550 at ([world]-232.24700614793048, 71.0, 871.913216642222)
+[14:17:28] [Async Chat Thread - #12/INFO]: <phi> Salve a tutti
+[14:17:32] [Async Chat Thread - #12/INFO]: <RichyZ99> Salve
+[14:17:41] [Async Chat Thread - #12/INFO]: <RichyZ99> Sono appena entrato anche io
+[14:17:51] [Server thread/INFO]: RichyZ99 issued server command: /tps
+[14:20:13] [Async Chat Thread - #13/INFO]: <phi> Hai isolato il mercante?
+[14:20:17] [Async Chat Thread - #13/INFO]: <Gasolio> se
+[14:20:26] [Async Chat Thread - #13/INFO]: <phi> Tanto chiede smeraldi e dà roba inutile
+[14:20:32] [Async Chat Thread - #13/INFO]: <Gasolio> non lo sapevo
+[14:20:40] [Async Chat Thread - #13/INFO]: <Gasolio> vado ad ucciderlo
+[14:20:47] [Async Chat Thread - #13/INFO]: <Gasolio> prima si è bevuto una pozione
+[14:20:53] [Async Chat Thread - #13/INFO]: <phi> Ah
+[14:20:53] [Async Chat Thread - #13/INFO]: <Gasolio> ed è diventato invisibile
+[14:21:04] [Async Chat Thread - #13/INFO]: <RichyZ99> Quello lo fa tutte le sere
+[14:21:17] [Async Chat Thread - #13/INFO]: <phi> Blocco di corallo invisibile è l'unica cosa strana che vende
+[14:21:28] [Async Chat Thread - #13/INFO]: <phi> Torno subito, rimango LDT
+[14:21:33] [Async Chat Thread - #13/INFO]: <Gasolio> lool
+[14:21:38] [Async Chat Thread - #13/INFO]: <Gasolio> lontano dalla tastier
+[14:23:11] [Async Chat Thread - #14/INFO]: <phi> Eccomi
+[14:23:25] [Async Chat Thread - #14/INFO]: <Gasolio> ciao riky
+[14:23:31] [Async Chat Thread - #14/INFO]: <RichyZ99> Salv
+[14:23:32] [Async Chat Thread - #14/INFO]: <RichyZ99> e
+[14:23:36] [Async Chat Thread - #14/INFO]: <Gasolio> Dalv
+[14:23:47] [Async Chat Thread - #14/INFO]: <phi> L'espansione che ho fatto sulla collina vi piace?
+[14:23:59] [Async Chat Thread - #14/INFO]: <RichyZ99> Sono un po' distante per dirlo
+[14:23:59] [Async Chat Thread - #14/INFO]: <phi> Non mi convince la torretta in alto
+[14:24:22] [Async Chat Thread - #14/INFO]: <phi> Mi riferivo soprattutto a Lorenzo
+[14:24:30] [Async Chat Thread - #14/INFO]: <RichyZ99> Immaginavow
+[14:24:34] [Async Chat Thread - #14/INFO]: <phi> Tu credo l'avessi vista
+[14:24:46] [Async Chat Thread - #14/INFO]: <RichyZ99> Ah, k
+[14:24:46] [Async Chat Thread - #14/INFO]: <Gasolio> abbi pazienza un attimo
+[14:24:49] [Async Chat Thread - #14/INFO]: <Gasolio> sono ldt
+[14:24:52] [Async Chat Thread - #14/INFO]: <phi> k
+[14:26:12] [Async Chat Thread - #15/INFO]: <phi> Si è sentito il *rumore inquietante*
+[14:26:17] [Async Chat Thread - #15/INFO]: <Gasolio> cioè?
+[14:26:21] [Async Chat Thread - #15/INFO]: <Gasolio> mostrami
+[14:26:24] [Async Chat Thread - #15/INFO]: <Gasolio> ci sono ora
+[14:26:43] [Async Chat Thread - #15/INFO]: <phi> La parte che hai già visto ma di cui non mi hai detto cosa pensi
+[14:26:47] [Async Chat Thread - #15/INFO]: <Gasolio> ecco la mia spada
+[14:26:52] [Async Chat Thread - #15/INFO]: <phi> Lol
+[14:26:54] [Async Chat Thread - #15/INFO]: <phi> Forte
+[14:26:54] [Async Chat Thread - #15/INFO]: <RichyZ99> Ma 'sto Mending?
+[14:27:05] [Async Chat Thread - #15/INFO]: <Gasolio> appunto ora ce l'ho sulla spada
+[14:27:09] [Async Chat Thread - #15/INFO]: <RichyZ99> Che invidia
+[14:27:19] [Async Chat Thread - #15/INFO]: <Gasolio> c'è ancora un libro
+[14:27:26] [Async Chat Thread - #15/INFO]: <RichyZ99> MHMMMMMM
+[14:27:39] [Async Chat Thread - #15/INFO]: <Gasolio> comunque stando afk alla farm di pesca si trovano abbastanza facilmente
+[14:27:42] [Async Chat Thread - #15/INFO]: <RichyZ99> Piccone con indistruttibilità ed efficienza
+[14:27:50] [Async Chat Thread - #15/INFO]: <Gasolio> insieme ad altre cose molto interessanti
+[14:28:55] [Async Chat Thread - #16/INFO]: <Gasolio> dio porto
+[14:28:56] [Async Chat Thread - #16/INFO]: <phi> Speta
+[14:30:14] [Async Chat Thread - #17/INFO]: <phi> Dove si entra nella cabina elettrica?
+[14:31:42] [Async Chat Thread - #18/INFO]: <RichyZ99> Perché il lag?
+[14:31:43] [Server thread/INFO]: RichyZ99 issued server command: /tps
+[14:32:01] [Async Chat Thread - #18/INFO]: <phi> Non ne tengo idea
+[14:32:08] [Async Chat Thread - #18/INFO]: <phi> Dove sono le querce scure?
+[14:32:17] [Async Chat Thread - #18/INFO]: <Gasolio> quale cabina elettrica
+[14:32:23] [Async Chat Thread - #18/INFO]: <Gasolio> fumate
+[14:32:34] [Async Chat Thread - #18/INFO]: <phi> Chi sta bevendo?
+[14:32:41] [Async Chat Thread - #18/INFO]: <Gasolio> nessuno
+[14:32:42] [Async Chat Thread - #18/INFO]: <phi> Ah il mercante
+[14:32:46] [Async Chat Thread - #18/INFO]: <RichyZ99> Ses
+[14:32:52] [Async Chat Thread - #18/INFO]: <phi> Vado ad eliminarlo
+[14:33:02] [Async Chat Thread - #18/INFO]: <phi> Mi innervosisce
+[14:33:04] [Async Chat Thread - #18/INFO]: <RichyZ99> *Modalità SS attiva*
+[14:33:20] [Async Chat Thread - #18/INFO]: <RichyZ99> Federico ma è una Camicia Bruna
+[14:33:36] [Async Chat Thread - #18/INFO]: <phi> Nera, pregoh
+[14:33:48] [Async Chat Thread - #18/INFO]: <RichyZ99> Solo italico, eh?
+[14:33:58] [Async Chat Thread - #18/INFO]: <phi> AVTENTICO
+[14:34:01] [Async Chat Thread - #18/INFO]: <RichyZ99> Torno subito
+[14:34:02] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
+[14:34:02] [Server thread/INFO]: RichyZ99 left the game
+[14:34:35] [Async Chat Thread - #18/INFO]: <phi> Comunque sto giocando coi sottotitoli
+[14:34:39] [Async Chat Thread - #18/INFO]: <Gasolio> cioè
+[14:34:43] [Async Chat Thread - #18/INFO]: <phi> Ho la trascrizione di tutti i rumori
+[14:34:48] [Async Chat Thread - #18/INFO]: <Gasolio> ah
+[14:34:52] [Async Chat Thread - #18/INFO]: <Gasolio> e come si fa?
+[14:35:02] [Async Chat Thread - #18/INFO]: <phi> Menú accessibilità
+[14:35:05] [Async Chat Thread - #18/INFO]: <Gasolio> vorrei mettere anche visibile la durabilità dei picconi
+[14:35:13] [Async Chat Thread - #18/INFO]: <phi> Hmm non so quello
+[14:35:58] [User Authenticator #34/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
+[14:36:08] [Server thread/INFO]: RichyZ99[/192.168.196.242:53301] logged in with entity id 49160 at ([world]-179.6267043244055, 62.0, 749.5883881167061)
+[14:36:20] [Server thread/INFO]: RichyZ99 issued server command: /tps
+[14:36:34] [Async Chat Thread - #19/INFO]: <RichyZ99> rieccomi
+[14:36:43] [Async Chat Thread - #19/INFO]: <phi> Salve, il server sta laggando
+[14:36:59] [Async Chat Thread - #19/INFO]: <RichyZ99> Lo so: ogniqualvolta un giocatore carica aree nuove, il server lagga
+[14:37:12] [Async Chat Thread - #19/INFO]: <RichyZ99> Controllo la console
+[14:37:58] [Async Chat Thread - #19/INFO]: <RichyZ99> Mi sa che è meglio se riavvio un attimo
+[14:38:06] [Async Chat Thread - #19/INFO]: <RichyZ99> Vi dispiace?
+[14:38:08] [Async Chat Thread - #19/INFO]: <Gasolio> a me non lagga troppo
+[14:38:12] [Async Chat Thread - #19/INFO]: <phi> Neanche a me ora
+[14:38:15] [Server thread/INFO]: RichyZ99 issued server command: /tps
+[14:38:23] [Async Chat Thread - #19/INFO]: <RichyZ99> Vedo: si è ripreso un po'
+[14:38:37] [Async Chat Thread - #19/INFO]: <Gasolio> nanna?°
+[14:38:43] [Async Chat Thread - #19/INFO]: <RichyZ99> Ok
+[14:38:50] [Async Chat Thread - #19/INFO]: <phi> k
+[14:38:55] [Async Chat Thread - #19/INFO]: <RichyZ99> sono a letto
+[14:45:33] [Async Chat Thread - #20/INFO]: <Gasolio> allora?
+[14:45:36] [Async Chat Thread - #20/INFO]: <Gasolio> che mi dici?
+[14:45:45] [Async Chat Thread - #20/INFO]: <phi> Bello
+[14:45:51] [Async Chat Thread - #20/INFO]: <phi> Ci voleva
+[14:45:55] [Async Chat Thread - #20/INFO]: <Gasolio> eh si
+[14:45:55] [Async Chat Thread - #20/INFO]: <RichyZ99> Va tutto bene, grazie (lel)
+[14:45:57] [Async Chat Thread - #20/INFO]: <Gasolio> altroche
+[14:46:02] [Async Chat Thread - #20/INFO]: <Gasolio> qua?
+[14:46:10] [Async Chat Thread - #20/INFO]: <phi> Qui manca un buco
+[14:46:11] [Async Chat Thread - #20/INFO]: <Gasolio> vieni a vedere
+[14:46:22] [Async Chat Thread - #20/INFO]: <phi> Bello bello
+[14:46:43] [Async Chat Thread - #20/INFO]: <Gasolio> riky se vuoi vieni a vedere
+[14:46:51] [Async Chat Thread - #20/INFO]: <Gasolio> la base è irriconoscibile
+[14:47:12] [Async Chat Thread - #20/INFO]: <RichyZ99> disto 700 blocchi: mi dai un attimo ed arrivo
+[14:47:39] [Async Chat Thread - #20/INFO]: <Gasolio> phi
+[14:47:43] [Async Chat Thread - #20/INFO]: <phi> ga
+[14:47:48] [Async Chat Thread - #20/INFO]: <RichyZ99> Fede
+[14:47:49] [Async Chat Thread - #20/INFO]: <Gasolio> eh magari
+[14:47:51] [Async Chat Thread - #20/INFO]: <RichyZ99> Cristo
+[14:47:57] [Async Chat Thread - #20/INFO]: <Gasolio> la campana qua è orrenda
+[14:48:00] [Async Chat Thread - #20/INFO]: <phi> Abbastanza
+[14:48:04] [Async Chat Thread - #20/INFO]: <Gasolio> pensavo ad un campanile fatto bene
+[14:48:05] [Async Chat Thread - #20/INFO]: <phi> Mi lavo i denti e ci penso
+[14:48:09] [Async Chat Thread - #20/INFO]: <phi> Torno subito
+[14:49:05] [Server thread/WARN]: RichyZ99 moved wrongly!
+[14:49:28] [Async Chat Thread - #21/INFO]: <RichyZ99> Interessante
+[14:50:02] [Async Chat Thread - #21/INFO]: <RichyZ99> Uso intelligente dei blocchi di ossa
+[14:50:06] [Server thread/INFO]: Gasolio lost connection: Timed out
+[14:50:06] [Server thread/INFO]: Gasolio left the game
+[14:50:11] [Async Chat Thread - #21/INFO]: <RichyZ99> Ma ses
+[14:51:11] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
+[14:51:12] [Server thread/INFO]: RichyZ99 left the game
+[14:51:46] [Server thread/INFO]: Stopping the server
+[14:51:46] [Server thread/INFO]: Stopping server
+[14:51:46] [Server thread/INFO]: Saving players
+[14:51:46] [Server thread/INFO]: phi lost connection: Server closed
+[14:51:47] [Server thread/INFO]: phi left the game
+[14:51:47] [Server thread/INFO]: Saving worlds
+[14:51:47] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[14:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:51:50] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[14:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:51:50] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[14:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:51:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:51:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:51:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
