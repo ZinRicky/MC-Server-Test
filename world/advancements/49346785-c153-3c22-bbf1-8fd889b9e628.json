@@ -640,6 +640,7 @@
       "minecraft:wither_skeleton": "2020-02-26 19:41:30 +0100",
       "minecraft:husk": "2020-03-04 12:39:30 +0100",
       "minecraft:cave_spider": "2020-02-27 17:06:14 +0100",
+      "minecraft:enderman": "2020-04-04 19:59:25 +0200",
       "minecraft:zombie": "2020-02-25 16:19:19 +0100",
       "minecraft:drowned": "2020-02-27 18:20:48 +0100",
       "minecraft:zombie_villager": "2020-03-01 18:04:58 +0100"
@@ -2812,6 +2813,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2020-02-27 17:00:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2020-04-04 22:09:09 +0200"
     },
     "done": true
   },
