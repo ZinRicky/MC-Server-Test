@@ -1,13 +1,15 @@
-[10:24:26] [Server thread/INFO]: Stopping the server
-[10:24:26] [Server thread/INFO]: Stopping server
-[10:24:26] [Server thread/INFO]: Saving players
-[10:24:26] [Server thread/INFO]: Saving worlds
-[10:24:26] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[10:24:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:24:27] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[10:24:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:24:27] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[10:24:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:24:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:24:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:24:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:03] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
+[00:00:04] [Server thread/INFO]: RichyZ99 left the game
+[11:15:35] [Server thread/INFO]: Stopping the server
+[11:15:35] [Server thread/INFO]: Stopping server
+[11:15:35] [Server thread/INFO]: Saving players
+[11:15:35] [Server thread/INFO]: Saving worlds
+[11:15:35] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[11:15:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:15:35] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[11:15:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:15:35] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[11:15:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:15:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:15:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:15:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
