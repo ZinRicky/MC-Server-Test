@@ -1,387 +1,62 @@
-[11:18:09] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[11:18:09] [Server thread/INFO]: Loading properties
-[11:18:11] [Server thread/INFO]: This server is running Paper version git-Paper-162 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[11:18:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:18:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:18:11] [Server thread/INFO]: Debug logging is disabled
-[11:18:12] [Server thread/INFO]: Default game type: SURVIVAL
-[11:18:12] [Server thread/INFO]: Generating keypair
-[11:18:17] [Server thread/INFO]: Starting Minecraft server on 192.168.196.74:25565
-[11:18:17] [Server thread/INFO]: Using default channel type
-[11:18:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:18:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:18:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:18:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:18:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:18:18] [Server thread/INFO]: Preparing level "world"
-[11:18:19] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[11:20:47] [Server thread/INFO]: Loaded 6 recipes
-[11:20:49] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:20:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:20:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:20:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:20:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:20:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:20:49] [Server thread/INFO]: Item Merge Radius: 4.0
-[11:20:49] [Server thread/INFO]: Mob Spawn Range: 6
-[11:20:49] [Server thread/INFO]: Experience Merge Radius: 6.0
-[11:20:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:20:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:20:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:20:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:20:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:20:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:20:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:20:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:20:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:20:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:20:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[11:20:50] [Server thread/INFO]: Max TNT Explosions: 100
-[11:20:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:20:50] [Server thread/INFO]: View Distance: 6
-[11:20:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:20:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:20:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:20:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:20:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:20:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:20:51] [Server thread/INFO]: Item Merge Radius: 4.0
-[11:20:51] [Server thread/INFO]: Mob Spawn Range: 6
-[11:20:51] [Server thread/INFO]: Experience Merge Radius: 6.0
-[11:20:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:20:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:20:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:20:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[11:20:51] [Server thread/INFO]: Max TNT Explosions: 100
-[11:20:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:20:51] [Server thread/INFO]: View Distance: 6
-[11:20:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:20:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:20:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:20:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:20:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:20:51] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:20:51] [Server thread/INFO]: Item Merge Radius: 4.0
-[11:20:51] [Server thread/INFO]: Mob Spawn Range: 6
-[11:20:51] [Server thread/INFO]: Experience Merge Radius: 6.0
-[11:20:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:20:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:20:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:20:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:20:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[11:20:51] [Server thread/INFO]: Max TNT Explosions: 100
-[11:20:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:20:51] [Server thread/INFO]: View Distance: 6
-[11:20:52] [Server thread/INFO]: Done (153.624s)! For help, type "help"
-[11:20:52] [Server thread/INFO]: Timings Reset
-[11:33:23] [User Authenticator #1/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[11:33:33] [Server thread/INFO]: Gasolio[/192.168.196.197:56646] logged in with entity id 2 at ([world]-222.70000002533197, 62.0000002, 51.299999974668026)
-[11:40:03] [Server thread/INFO]: Gasolio issued server command: /give @a minecraft:ender_pearl
-[11:40:03] [Server thread/INFO]: [Gasolio: Gave 1 [Ender Pearl] to Gasolio]
-[12:05:15] [Server thread/INFO]: [Server] Ehi, ciò è illegale. Non puoi regalarti le perle d'End
-[12:06:15] [Server thread/INFO]: [Server] Vergognati
-[12:06:23] [Server thread/INFO]: [Server] Vergognati
-[12:06:24] [Server thread/INFO]: [Server] Vergognati
-[12:06:24] [Server thread/INFO]: [Server] Vergognati
-[12:06:25] [Server thread/INFO]: [Server] Vergognati
-[12:06:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[12:06:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[12:06:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[12:06:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[12:06:28] [Server thread/INFO]: [Server] Vergognati
-[12:06:40] [Server thread/INFO]: [Server] Ok, la smetto
-[12:06:43] [Async Chat Thread - #0/INFO]: <Gasolio> ERO FINITO NELLA FARM DI POLLI
-[12:06:57] [Async Chat Thread - #0/INFO]: <Gasolio> SE AVESSI SPACCATO UN BLOCCO SAREBBERO USCITI TUTTI
-[12:07:05] [Async Chat Thread - #0/INFO]: <Gasolio> non avevo scelta
-[12:08:44] [User Authenticator #2/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
-[12:08:52] [Server thread/INFO]: RichyZ99[/192.168.196.242:50835] logged in with entity id 4281 at ([world]-188.6567024174628, 67.0, 1107.8980991557123)
-[12:09:11] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[12:13:55] [Async Chat Thread - #1/INFO]: <RichyZ99> Buondì
-[12:14:13] [Async Chat Thread - #1/INFO]: <Gasolio> bondì
-[12:14:28] [Async Chat Thread - #1/INFO]: <Gasolio> dove sei?
-[12:14:47] [Async Chat Thread - #1/INFO]: <RichyZ99> Oltre il secondo tempio. In realtà, si può dire che sono al terzo tempio
-[12:14:58] [Async Chat Thread - #1/INFO]: <Gasolio> ma dove sono
-[12:15:05] [Async Chat Thread - #1/INFO]: <RichyZ99> A sud
-[12:15:12] [Async Chat Thread - #1/INFO]: <RichyZ99> Basta seguire il fiume
-[12:15:37] [Async Chat Thread - #1/INFO]: <Gasolio> sono ad un tempio
-[12:15:42] [Async Chat Thread - #1/INFO]: <Gasolio> ci sono le farm di grano
-[12:16:05] [Async Chat Thread - #1/INFO]: <RichyZ99> Manca ancora parecchia strada
-[12:16:15] [Async Chat Thread - #1/INFO]: <Gasolio> ottimo
-[12:16:19] [Async Chat Thread - #1/INFO]: <Gasolio> c'è un letto qui?
-[12:16:24] [Async Chat Thread - #1/INFO]: <RichyZ99> Certo
-[12:16:29] [Async Chat Thread - #1/INFO]: <RichyZ99> Primo piano
-[12:16:32] [Async Chat Thread - #1/INFO]: <Gasolio> grz
-[12:16:36] [Async Chat Thread - #1/INFO]: <Gasolio> sono a leto
-[12:16:51] [Async Chat Thread - #1/INFO]: <RichyZ99> Anche io
-[12:18:18] [Async Chat Thread - #2/INFO]: <Gasolio> sto venendo i barca
-[12:18:26] [Async Chat Thread - #2/INFO]: <RichyZ99> Ti vengo incontro
-[12:19:16] [Async Chat Thread - #2/INFO]: <Gasolio> vedo uno spawner
-[12:19:28] [Async Chat Thread - #2/INFO]: <RichyZ99> Tira avanti
-[12:19:33] [Async Chat Thread - #2/INFO]: <RichyZ99> Salve
-[12:19:34] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:19:40] [Async Chat Thread - #2/INFO]: <Gasolio> salvw
-[12:20:40] [Async Chat Thread - #2/INFO]: <RichyZ99> Ho sbagliato girowa
-[12:20:44] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:21:15] [Server thread/WARN]: RichyZ99 moved wrongly!
-[12:21:39] [Async Chat Thread - #2/INFO]: <RichyZ99> Qui dentro non c'è ancora un cazzo, ma ci ho lavorato poco
-[12:21:55] [Async Chat Thread - #2/INFO]: <Gasolio> non ero mai stato qua
-[12:21:58] [Async Chat Thread - #2/INFO]: <RichyZ99> Devo andare
-[12:21:59] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
-[12:22:00] [Server thread/INFO]: RichyZ99 left the game
-[12:23:48] [User Authenticator #3/INFO]: UUID of player AlphaJack is d50ee8f6-7ed1-3c0f-9674-40d20d21bd41
-[12:23:55] [Server thread/INFO]: AlphaJack lost connection: Disconnected
-[12:23:55] [Server thread/INFO]: AlphaJack left the game
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -5.840866589317727,0.0,-19.19589718618988
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -6.108143766037784,0.0,-19.485749564553203
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -6.378421234598193,0.0,-19.773379451894698
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -6.6509091664376,0.0,-20.059543350564354
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -6.92493775180489,0.0,-20.344860753402827
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -7.1999424951772255,0.0,-20.629835610062855
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -7.4754530840628775,0.0,-20.914872483927297
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -7.751077438399477,0.0,-21.200296096399484
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -8.026492369253276,0.0,-21.486363163052943
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -8.30143775327511,0.0,-21.773270237297652
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -8.5757026097844,0.0,-22.061168384172333
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -8.84912368268607,0.0,-22.350165829284492
-[12:23:55] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -9.121575512209063,0.0,-22.640337957350084
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:23:55] [Server thread/WARN]: 17575c67-f2f9-4996-bf22-e6303ccd4591 (vehicle of Gasolio) moved wrongly!
-[12:24:00] [User Authenticator #3/INFO]: UUID of player AlphaJack is d50ee8f6-7ed1-3c0f-9674-40d20d21bd41
-[12:24:02] [Server thread/INFO]: AlphaJack[/192.168.196.65:53602] logged in with entity id 10138 at ([world]-188.49206209481372, 60.5625, 67.88661559648199)
-[12:24:03] [Async Chat Thread - #3/INFO]: <Gasolio> wtf
-[12:24:11] [Async Chat Thread - #3/INFO]: <Gasolio> sei uscito prima di entrare?
-[12:24:17] [Async Chat Thread - #3/INFO]: <AlphaJack> lol
-[12:24:32] [Async Chat Thread - #3/INFO]: <AlphaJack> che stracazzo è successo
-[12:24:43] [Async Chat Thread - #3/INFO]: <Gasolio> cioè?
-[12:25:43] [Async Chat Thread - #4/INFO]: <Gasolio> dove sei?
-[12:25:56] [Async Chat Thread - #4/INFO]: <Gasolio> cioè?
-[12:26:04] [Async Chat Thread - #4/INFO]: <AlphaJack> boh l'arredamento
-[12:26:13] [Async Chat Thread - #4/INFO]: <Gasolio> eh figo
-[12:26:15] [Async Chat Thread - #4/INFO]: <Gasolio> no?
-[12:26:19] [Async Chat Thread - #4/INFO]: <AlphaJack> vedo che il comunismo ha avuto la peggio =D
-[12:26:48] [Async Chat Thread - #4/INFO]: <AlphaJack> ste leve?
-[12:26:53] [Async Chat Thread - #4/INFO]: <Gasolio> boh
-[12:27:00] [Async Chat Thread - #4/INFO]: <Gasolio> :D
-[12:27:04] [Async Chat Thread - #4/INFO]: <AlphaJack> lol
-[12:27:16] [Async Chat Thread - #4/INFO]: <AlphaJack> complimenti
-[12:27:20] [Async Chat Thread - #4/INFO]: <Gasolio> grazie
-[12:27:20] [Async Chat Thread - #4/INFO]: <AlphaJack> lagga sul P3?
-[12:27:26] [Async Chat Thread - #4/INFO]: <Gasolio> ehnzomma
-[12:27:43] [Async Chat Thread - #4/INFO]: <Gasolio> ci sono anche strutture nuove
-[12:27:44] [Async Chat Thread - #4/INFO]: <AlphaJack> la pecora non se l'è più cagata nessuno
-[12:27:50] [Async Chat Thread - #4/INFO]: <Gasolio> che pecora
-[12:27:56] [Async Chat Thread - #4/INFO]: <Gasolio> sono finite le cesoie?
-[12:28:04] [Async Chat Thread - #4/INFO]: <AlphaJack> eh sì
-[12:28:09] [Async Chat Thread - #4/INFO]: <Gasolio> le avevo gia rimesse
-[12:28:31] [Async Chat Thread - #4/INFO]: <Gasolio> seguimi
-[12:28:45] [Async Chat Thread - #4/INFO]: <AlphaJack> dove sei?
-[12:28:58] [Async Chat Thread - #4/INFO]: <Gasolio> stanzino di phi
-[12:29:41] [Async Chat Thread - #4/INFO]: <Gasolio> tu dove sei
-[12:30:07] [Async Chat Thread - #4/INFO]: <AlphaJack> letto di fede
-[12:30:21] [Async Chat Thread - #4/INFO]: <AlphaJack> non c'è nessun letto
-[12:30:40] [Async Chat Thread - #4/INFO]: <Gasolio> :D
-[12:31:03] [Async Chat Thread - #4/INFO]: <Gasolio> dormi
-[12:31:29] [Async Chat Thread - #4/INFO]: <Gasolio> hai visto su?
-[12:31:32] [Async Chat Thread - #4/INFO]: <AlphaJack> complimenti
-[12:32:17] [Async Chat Thread - #4/INFO]: <AlphaJack> volpe
-[12:32:38] [Async Chat Thread - #4/INFO]: <Gasolio> lo so
-[12:32:42] [Async Chat Thread - #4/INFO]: <Gasolio> non so come prenderla
-[12:32:47] [Async Chat Thread - #4/INFO]: <Gasolio> è sempre qua
-[12:32:56] [Async Chat Thread - #4/INFO]: <AlphaJack> quella specie di tetto che si regge su degli stuzzicadenti?
-[12:33:05] [Async Chat Thread - #4/INFO]: <Gasolio> eh cazzin
-[12:33:17] [Async Chat Thread - #4/INFO]: <Gasolio> lol
-[12:33:19] [Async Chat Thread - #4/INFO]: <AlphaJack> la farm di pesca come funziona?
-[12:33:40] [Async Chat Thread - #4/INFO]: <Gasolio> devi scaricarti un programmino
-[12:33:45] [Async Chat Thread - #4/INFO]: <AlphaJack> c'è un ragnoo nel cacao
-[12:33:56] [Async Chat Thread - #4/INFO]: <Gasolio> a meno che tu non voglia stare qualche ora col tasto sx del mouse premuto
-[12:34:03] [Async Chat Thread - #4/INFO]: <AlphaJack> ah
-[12:34:25] [Async Chat Thread - #4/INFO]: <Gasolio> ho fatto anche una fornace automatica
-[12:34:30] [Async Chat Thread - #4/INFO]: <AlphaJack> progressi per l'end?
-[12:34:45] [Async Chat Thread - #4/INFO]: <Gasolio> cesta sopra la roba da cuocere
-[12:34:49] [Async Chat Thread - #4/INFO]: <Gasolio> funziona a bambu
-[12:34:49] [Async Chat Thread - #4/INFO]: <AlphaJack> devo scappare
-[12:34:58] [Async Chat Thread - #4/INFO]: <Gasolio> dove devi andare?
-[12:35:00] [Async Chat Thread - #4/INFO]: <AlphaJack> buona
-[12:35:06] [Async Chat Thread - #4/INFO]: <AlphaJack> eh cibo
-[12:35:14] [Async Chat Thread - #4/INFO]: <Gasolio> già pranzo?
-[12:35:18] [Async Chat Thread - #4/INFO]: <AlphaJack> sì
-[12:35:22] [Async Chat Thread - #4/INFO]: <AlphaJack> wtf
-[12:35:26] [Async Chat Thread - #4/INFO]: <AlphaJack> non ha senso =D
-[12:35:28] [Async Chat Thread - #4/INFO]: <Gasolio> ci diamo un orario in cui ci ribecchiamo?
-[12:35:37] [Async Chat Thread - #4/INFO]: <AlphaJack> dopo pranzo
-[12:35:43] [Async Chat Thread - #4/INFO]: <Gasolio> lo so jack, non l'ho fatta io
-[12:35:45] [Async Chat Thread - #4/INFO]: <AlphaJack> anche se sono abbastanza indietro
-[12:35:53] [Async Chat Thread - #4/INFO]: <AlphaJack> cerco di esserci, almeno oggi
-[12:35:59] [Async Chat Thread - #4/INFO]: <AlphaJack> a dopo
-[12:36:00] [Server thread/INFO]: AlphaJack lost connection: Disconnected
-[12:36:00] [Server thread/INFO]: AlphaJack left the game
-[12:44:14] [Server thread/INFO]: Gasolio lost connection: Disconnected
-[12:44:16] [Server thread/INFO]: Gasolio left the game
-[12:47:47] [User Authenticator #4/INFO]: UUID of player RichyZ99 is 6a3bc64a-a35e-32eb-8b33-e0ad0453f1e3
-[12:48:00] [Server thread/INFO]: RichyZ99[/192.168.196.242:51118] logged in with entity id 13019 at ([world]-205.3645624378235, 64.0, 1108.7171616025985)
-[12:51:13] [User Authenticator #5/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[12:51:20] [Server thread/INFO]: Gasolio[/192.168.196.197:57156] logged in with entity id 13413 at ([world]-222.70000002533197, 62.0000002, 51.299999974668026)
-[12:51:27] [Async Chat Thread - #5/INFO]: <RichyZ99> Rieccoci
-[12:51:40] [Async Chat Thread - #5/INFO]: <Gasolio> prima c'era anche gec
-[12:51:49] [Async Chat Thread - #5/INFO]: <Gasolio> hai pranzato?
-[12:52:03] [Async Chat Thread - #5/INFO]: <RichyZ99> No; ho preparato la tavola e scaricato la lavastoviglie
-[12:52:15] [Async Chat Thread - #5/INFO]: <Gasolio> complimenti
-[12:52:24] [Async Chat Thread - #5/INFO]: <RichyZ99> Mia madre mi ci ha costretto
-[12:52:48] [Async Chat Thread - #5/INFO]: <Gasolio> dobbiamo costruire una farm di ferro
-[12:52:55] [Async Chat Thread - #5/INFO]: <Gasolio> non ne abbiamo più
-[12:53:04] [Async Chat Thread - #5/INFO]: <RichyZ99> Quantifica: quanto ne abbiamo?
-[12:54:09] [Async Chat Thread - #6/INFO]: <RichyZ99> Ti passo una canzone che sto ascoltando adesso che ci sta un bel po'
-[12:54:49] [Async Chat Thread - #6/INFO]: <Gasolio> grz
-[12:56:43] [Async Chat Thread - #7/INFO]: <Gasolio> non mi è nuova
-[12:56:49] [Async Chat Thread - #7/INFO]: <Gasolio> comunque niente male
-[12:56:57] [Async Chat Thread - #7/INFO]: <Gasolio> nanna
-[12:56:58] [Async Chat Thread - #7/INFO]: <RichyZ99> Mi fa piacere che ti piaccia
-[12:57:16] [Async Chat Thread - #7/INFO]: <RichyZ99> ok
-[12:57:40] [Async Chat Thread - #7/INFO]: <RichyZ99> È venuta fuori Kick Out the Epic Motherfucker
-[12:57:50] [Async Chat Thread - #7/INFO]: <Gasolio> non la conosco
-[12:58:20] [Async Chat Thread - #7/INFO]: <RichyZ99> La campionano come la merda ai festival
-[13:00:02] [Server thread/WARN]: Boat (vehicle of Gasolio) moved too quickly! -0.1891901272282439,0.0,20.3340994401849
-[13:01:06] [Async Chat Thread - #8/INFO]: <Gasolio> dove sei
-[13:01:18] [Async Chat Thread - #8/INFO]: <RichyZ99> Sempre al terzo tempio: tolgo un po' di fogliame
-[13:01:43] [Async Chat Thread - #8/INFO]: <RichyZ99> Ti serve aiuto?
-[13:01:59] [Async Chat Thread - #8/INFO]: <Gasolio> buh
-[13:02:07] [Async Chat Thread - #8/INFO]: <Gasolio> hai tolto il pvp?
-[13:02:09] [Async Chat Thread - #8/INFO]: <RichyZ99> Ho preso un infarto
-[13:02:18] [Async Chat Thread - #8/INFO]: <RichyZ99> Direi di sì
-[13:02:24] [Async Chat Thread - #8/INFO]: <RichyZ99> Ho tolto il PVP
-[13:02:28] [Async Chat Thread - #8/INFO]: <Gasolio> peccato :D
-[13:02:51] [Async Chat Thread - #8/INFO]: <RichyZ99> Ti piacerebbe schiaffeggiarmi XD
-[13:02:55] [Async Chat Thread - #8/INFO]: <Gasolio> moltissimo
-[13:03:09] [Async Chat Thread - #8/INFO]: <RichyZ99> That's super-duper gay
-[13:04:26] [Async Chat Thread - #9/INFO]: <Gasolio> senti ma bruciare'
-[13:04:28] [Async Chat Thread - #9/INFO]: <Gasolio> ?
-[13:05:01] [Async Chat Thread - #9/INFO]: <RichyZ99> Non fa bene al lag e in piú perdo risorse che non ho voglia di fare un chilometro per andare a prendere
-[13:05:22] [Async Chat Thread - #9/INFO]: <RichyZ99> Anche col legno, ti ricordo, non siamo messi benissimo
-[13:06:02] [Async Chat Thread - #9/INFO]: <Gasolio> dovremmo fare una farm di alberi
-[13:06:12] [Async Chat Thread - #9/INFO]: <RichyZ99> Oppure attingere da qui
-[13:06:14] [Async Chat Thread - #9/INFO]: <Gasolio> grazie per l'ascia
-[13:06:17] [Async Chat Thread - #9/INFO]: <RichyZ99> Prego
-[13:06:29] [Async Chat Thread - #9/INFO]: <RichyZ99> Mi facevi abbastanza pena a prendere i platani a pugni
-[13:08:18] [Async Chat Thread - #10/INFO]: <Gasolio> nanna
-[13:08:30] [Async Chat Thread - #10/INFO]: <Gasolio> hai due leeti
-[13:08:36] [Async Chat Thread - #10/INFO]: <RichyZ99> Vai al primo piano
-[13:08:58] [Async Chat Thread - #10/INFO]: <RichyZ99> Ho sempre un letto per me e un letto in ogni tempio
-[13:09:09] [Async Chat Thread - #10/INFO]: <RichyZ99> Non hai ucciso la pecora qui fuori, vero?
-[13:09:12] [Async Chat Thread - #10/INFO]: <Gasolio> no
-[13:09:18] [Async Chat Thread - #10/INFO]: <Gasolio> sto dormendo
-[13:11:16] [User Authenticator #6/INFO]: UUID of player AlphaJack is d50ee8f6-7ed1-3c0f-9674-40d20d21bd41
-[13:11:25] [Server thread/INFO]: AlphaJack[/192.168.196.65:57228] logged in with entity id 17139 at ([world]-183.92494422212656, 86.5, 109.82169577073283)
-[13:11:38] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[13:11:40] [Async Chat Thread - #11/INFO]: <AlphaJack> jorno
-[13:11:44] [Async Chat Thread - #11/INFO]: <Gasolio> buon
-[13:11:51] [Async Chat Thread - #11/INFO]: <RichyZ99> Kore wa, Giorno Giovanna
-[13:12:12] [Async Chat Thread - #11/INFO]: <AlphaJack> qualcuno mi spiega perchè quei nomi sono in italiano?
-[13:12:30] [Async Chat Thread - #11/INFO]: <Gasolio> quali nomi
-[13:12:33] [Async Chat Thread - #11/INFO]: <RichyZ99> Perché la quinta stagione di JoJo è ambientata in Sud Italia
-[13:12:44] [Async Chat Thread - #11/INFO]: <Gasolio> ah ok
-[13:12:46] [Async Chat Thread - #11/INFO]: <AlphaJack> e prima?
-[13:12:59] [Async Chat Thread - #11/INFO]: <RichyZ99> USA
-[13:13:03] [Async Chat Thread - #11/INFO]: <Gasolio> e getta
-[13:13:07] [Async Chat Thread - #11/INFO]: <AlphaJack> non c'è sempre stato Dio come nemico?
-[13:13:09] [Async Chat Thread - #11/INFO]: <RichyZ99> La terza e la quarta in Giappone
-[13:13:20] [Async Chat Thread - #11/INFO]: <RichyZ99> Dio è il nemico fino alla terza
-[13:13:26] [Async Chat Thread - #11/INFO]: <AlphaJack> eh
-[13:13:32] [Async Chat Thread - #11/INFO]: <AlphaJack> non è italiano come nome?
-[13:13:45] [Async Chat Thread - #11/INFO]: <RichyZ99> No: si rifà a Ronny James Dio
-[13:13:49] [Async Chat Thread - #11/INFO]: <RichyZ99> O come si scrive
-[13:13:58] [Async Chat Thread - #11/INFO]: <AlphaJack> bene
-[13:13:59] [Async Chat Thread - #11/INFO]: <RichyZ99> E quel musicista è italo-americano
-[13:14:24] [Async Chat Thread - #11/INFO]: <AlphaJack> progressi per l'end?
-[13:14:30] [Async Chat Thread - #11/INFO]: <AlphaJack> e nether
-[13:14:31] [Async Chat Thread - #11/INFO]: <Gasolio> alcuno
-[13:14:42] [Async Chat Thread - #11/INFO]: <Gasolio> aspettavamo il sensei, vossia
-[13:14:57] [Async Chat Thread - #11/INFO]: <AlphaJack> roba che usciva Minecraft 2
-[13:15:07] [Async Chat Thread - #11/INFO]: <Gasolio> opz
-[13:15:25] [Server thread/WARN]: RichyZ99 moved too quickly! 14.313465976079101,-0.7521489003674589,-31.669679806294653
-[13:15:36] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[13:15:57] [Async Chat Thread - #11/INFO]: <RichyZ99> Siamo a 11 TPS
-[13:16:00] [Async Chat Thread - #11/INFO]: <RichyZ99> Non male
-[13:16:04] [Async Chat Thread - #11/INFO]: <AlphaJack> torno
-[13:16:19] [Async Chat Thread - #11/INFO]: <AlphaJack> meglio?
-[13:16:23] [Server thread/INFO]: Gasolio lost connection: Timed out
-[13:16:24] [Server thread/INFO]: Gasolio left the game
-[13:16:28] [Async Chat Thread - #11/INFO]: <RichyZ99> Lel
-[13:16:33] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[13:16:37] [Async Chat Thread - #11/INFO]: <RichyZ99> Ancora peggio
-[13:16:43] [Async Chat Thread - #11/INFO]: <RichyZ99> 8.75
-[13:16:53] [Async Chat Thread - #11/INFO]: <RichyZ99> Controllo la console del Pi
-[13:16:58] [Server thread/INFO]: AlphaJack lost connection: Disconnected
-[13:16:58] [Server thread/INFO]: AlphaJack left the game
-[13:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.61, 12.73, 16.8
-[13:19:14] [Server thread/INFO]: RichyZ99 issued server command: /tps
-[13:19:44] [Server thread/INFO]: RichyZ99 lost connection: Disconnected
-[13:19:44] [Server thread/INFO]: RichyZ99 left the game
-[13:20:14] [Server thread/INFO]: Stopping the server
-[13:20:14] [Server thread/INFO]: Stopping server
-[13:20:14] [Server thread/INFO]: Saving players
-[13:20:14] [Server thread/INFO]: Saving worlds
-[13:20:14] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[13:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:20:14] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[13:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:20:14] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[13:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:59:11] [User Authenticator #13/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
+[09:59:32] [Server thread/INFO]: Gasolio[/192.168.196.197:49364] logged in with entity id 17208 at ([world]-216.76249998807907, 62.0, 50.30000001192093)
+[10:29:57] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+[10:29:57] [Thread-1/INFO]: Stopping server
+[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46)
+[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.enterRawMode(AbstractTerminal.java:117)
+[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1043)
+[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:81)
+[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$1(PosixSysTerminal.java:65)
+[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.utils.Signals.lambda$register$1(Signals.java:52)
+[10:29:57] [SIGCONT handler/WARN]: 	at com.sun.proxy.$Proxy18.handle(Unknown Source)
+[10:29:57] [SIGCONT handler/WARN]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+[10:29:57] [SIGCONT handler/WARN]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:220)
+[10:29:57] [SIGCONT handler/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[10:29:58] [SIGCONT handler/WARN]: Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44)
+[10:29:58] [SIGCONT handler/WARN]: 	... 9 more
+[10:29:58] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.15.2.jar:git-Paper-162]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.15.2.jar:git-Paper-162]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.15.2.jar:git-Paper-162]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-162]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[patched_1.15.2.jar:git-Paper-162]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[patched_1.15.2.jar:git-Paper-162]
+	... 5 more
+[10:29:58] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.enterRawMode(AbstractTerminal.java:117)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1043)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:81)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$1(PosixSysTerminal.java:65)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.utils.Signals.lambda$register$1(Signals.java:52)
+[10:29:58] [Thread-1/INFO]: Saving players
+[10:29:58] [SIGCONT handler/WARN]: 	at com.sun.proxy.$Proxy18.handle(Unknown Source)
+[10:29:58] [SIGCONT handler/WARN]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+[10:29:58] [SIGCONT handler/WARN]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:220)
+[10:29:58] [SIGCONT handler/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[10:29:58] [SIGCONT handler/WARN]: Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87)
+[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44)
+[10:29:58] [SIGCONT handler/WARN]: 	... 9 more
+[10:29:59] [Thread-1/WARN]: Exception in thread "Thread-1" java.lang.IllegalStateException: PlayerKickEvent may only be triggered synchronously.
+[10:29:59] [Thread-1/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595)
+[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.PlayerConnection.disconnect(PlayerConnection.java:267)
+[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.PlayerList.shutdown(PlayerList.java:1104)
+[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:752)
+[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:752)
+[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.close(MinecraftServer.java:718)
+[10:29:59] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
