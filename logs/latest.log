@@ -1,62 +1,13 @@
-[09:59:11] [User Authenticator #13/INFO]: UUID of player Gasolio is 49346785-c153-3c22-bbf1-8fd889b9e628
-[09:59:32] [Server thread/INFO]: Gasolio[/192.168.196.197:49364] logged in with entity id 17208 at ([world]-216.76249998807907, 62.0, 50.30000001192093)
-[10:29:57] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-[10:29:57] [Thread-1/INFO]: Stopping server
-[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46)
-[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.enterRawMode(AbstractTerminal.java:117)
-[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1043)
-[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:81)
-[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$1(PosixSysTerminal.java:65)
-[10:29:57] [SIGCONT handler/WARN]: 	at org.jline.utils.Signals.lambda$register$1(Signals.java:52)
-[10:29:57] [SIGCONT handler/WARN]: 	at com.sun.proxy.$Proxy18.handle(Unknown Source)
-[10:29:57] [SIGCONT handler/WARN]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
-[10:29:57] [SIGCONT handler/WARN]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:220)
-[10:29:57] [SIGCONT handler/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[10:29:58] [SIGCONT handler/WARN]: Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44)
-[10:29:58] [SIGCONT handler/WARN]: 	... 9 more
-[10:29:58] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.15.2.jar:git-Paper-162]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.15.2.jar:git-Paper-162]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.15.2.jar:git-Paper-162]
-	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-162]
-Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[patched_1.15.2.jar:git-Paper-162]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[patched_1.15.2.jar:git-Paper-162]
-	... 5 more
-[10:29:58] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.enterRawMode(AbstractTerminal.java:117)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1043)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:81)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$1(PosixSysTerminal.java:65)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.utils.Signals.lambda$register$1(Signals.java:52)
-[10:29:58] [Thread-1/INFO]: Saving players
-[10:29:58] [SIGCONT handler/WARN]: 	at com.sun.proxy.$Proxy18.handle(Unknown Source)
-[10:29:58] [SIGCONT handler/WARN]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
-[10:29:58] [SIGCONT handler/WARN]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:220)
-[10:29:58] [SIGCONT handler/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[10:29:58] [SIGCONT handler/WARN]: Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87)
-[10:29:58] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44)
-[10:29:58] [SIGCONT handler/WARN]: 	... 9 more
-[10:29:59] [Thread-1/WARN]: Exception in thread "Thread-1" java.lang.IllegalStateException: PlayerKickEvent may only be triggered synchronously.
-[10:29:59] [Thread-1/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595)
-[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.PlayerConnection.disconnect(PlayerConnection.java:267)
-[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.PlayerList.shutdown(PlayerList.java:1104)
-[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:752)
-[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:752)
-[10:29:59] [Thread-1/WARN]: 	at net.minecraft.server.v1_15_R1.MinecraftServer.close(MinecraftServer.java:718)
-[10:29:59] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
+[00:36:23] [Server thread/INFO]: Stopping the server
+[00:36:23] [Server thread/INFO]: Stopping server
+[00:36:23] [Server thread/INFO]: Saving players
+[00:36:23] [Server thread/INFO]: Saving worlds
+[00:36:23] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[00:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:36:23] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[00:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:36:23] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[00:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
