@@ -59,6 +59,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    light-queue-size: 20
     zombie-villager-infection-chance: -1.0
     iron-golems-can-spawn-in-air: false
     tracker-update-distance: 1.0
