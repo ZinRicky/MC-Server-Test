@@ -1,7 +1,7 @@
 Config Help: dev.bukkit.org/server-mods/tree-assist/pages/config-walkthrough/
 Main:
   Apply Full Tool Damage: true
-  Auto Add To Inventory: false
+  Auto Add To Inventory: true
   Auto Plant Dropped Saplings: false
   Automatic Tree Destruction: true
   Destroy Only Blocks Above: false
@@ -12,10 +12,10 @@ Main:
   Ignore User Placed Blocks: true
   Initial Delay: false
   Language: en
-  Sapling Replant: true
+  Sapling Replant: false
   Toggle Default: true
-  Use mcMMO if Available: true
-  Use Jobs if Available: true
+  Use mcMMO if Available: false
+  Use Jobs if Available: false
   Use WorldGuard if Available: false
   Use Permissions: false
   Use Falling Blocks: false
@@ -87,7 +87,6 @@ Worlds:
   Enable Per World: false
   Enabled Worlds:
   - world
-  - world2
 Custom Drops:
   APPLE: 0.1
   GOLDEN_APPLE: 0.0
@@ -101,4 +100,4 @@ Modding:
     - minecraft:birch_log
     - minecraft:birch_leaves
 Debug: none
-tracker: false
+Tracker: false
