@@ -158,15 +158,15 @@ if [ -f "server.properties" ]; then
 fi
 
 # Update paperclip.jar
-echo "Updating to most recent paperclip version ..."
+#echo "Updating to most recent paperclip version ..."
 
 # Test internet connectivity first
-wget --spider --quiet https://papermc.io/api/v1/paper/1.15.2/latest/download
-if [ "$?" != 0 ]; then
-    echo "Unable to connect to update website (internet connection may be down).  Skipping update ..."
-else
-    wget -O paperclip.jar https://papermc.io/api/v1/paper/1.15.2/latest/download
-fi
+#wget --spider --quiet https://papermc.io/api/v1/paper/1.15.2/latest/download
+#if [ "$?" != 0 ]; then
+#    echo "Unable to connect to update website (internet connection may be down).  Skipping update ..."
+#else
+#    wget -O paperclip.jar https://papermc.io/api/v1/paper/1.15.2/latest/download
+#fi
 
 echo "Starting Minecraft server.  To view window type screen -r minecraft."
 echo "To minimize the window and let the server run in the background, press Ctrl+A then Ctrl+D"
