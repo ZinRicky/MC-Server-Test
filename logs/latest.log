@@ -1,88 +1,16 @@
-[13:08:26] [User Authenticator #1/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[13:08:38] [Server thread/INFO]: phi joined the game
-[13:08:40] [Server thread/INFO]: phi[/192.168.196.201:63956] logged in with entity id 1 at ([world]-225.74995637723197, 58.0, 64.38159227687636)
-[13:08:55] [Server thread/INFO]: phi lost connection: Disconnected
-[13:08:56] [Server thread/INFO]: phi left the game
-[13:09:04] [User Authenticator #1/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[13:09:17] [Server thread/INFO]: phi joined the game
-[13:09:17] [Server thread/INFO]: phi[/192.168.196.201:63964] logged in with entity id 240 at ([world]-225.74995637723197, 58.0, 64.38159227687636)
-[13:09:34] [Server thread/INFO]: phi lost connection: Disconnected
-[13:09:34] [Server thread/INFO]: phi left the game
-[13:10:06] [User Authenticator #2/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[13:10:08] [Server thread/INFO]: phi joined the game
-[13:10:08] [Server thread/INFO]: phi[/192.168.196.201:63975] logged in with entity id 491 at ([world]-225.74995637723197, 58.0, 64.38159227687636)
-[13:10:37] [Server thread/INFO]: phi lost connection: Disconnected
-[13:10:37] [Server thread/INFO]: phi left the game
-[13:10:58] [User Authenticator #2/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[13:10:59] [Server thread/INFO]: phi lost connection: Disconnected
-[13:12:22] [User Authenticator #3/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[13:12:27] [Server thread/INFO]: phi joined the game
-[13:12:27] [Server thread/INFO]: phi[/192.168.196.201:64033] logged in with entity id 816 at ([world]-225.74995637723197, 58.0, 64.38159227687636)
-[13:12:53] [Server thread/INFO]: phi lost connection: Disconnected
-[13:12:53] [Server thread/INFO]: phi left the game
-[13:13:08] [User Authenticator #3/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[13:13:11] [Server thread/INFO]: phi joined the game
-[13:13:11] [Server thread/INFO]: phi[/192.168.196.201:64087] logged in with entity id 1093 at ([world]-225.74995637723197, 58.0, 64.38159227687636)
-[13:16:14] [Server thread/INFO]: phi lost connection: Disconnected
-[13:16:14] [Server thread/INFO]: phi left the game
-[14:33:41] [User Authenticator #4/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:33:50] [Server thread/INFO]: phi joined the game
-[14:33:51] [Server thread/INFO]: phi[/192.168.196.201:54460] logged in with entity id 1609 at ([world]-227.54007031612764, 58.0, 63.907413319155445)
-[14:33:51] [Server thread/INFO]: phi lost connection: Disconnected
-[14:33:51] [Server thread/INFO]: phi left the game
-[14:33:57] [User Authenticator #4/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:34:00] [Server thread/INFO]: phi joined the game
-[14:34:01] [Server thread/INFO]: phi[/192.168.196.201:54713] logged in with entity id 1634 at ([world]-227.54007031612764, 58.0, 63.907413319155445)
-[14:35:15] [Server thread/WARN]: phi was kicked due to keepalive timeout!
-[14:35:15] [Server thread/INFO]: phi lost connection: Timed out
-[14:35:15] [Server thread/INFO]: phi left the game
-[14:35:28] [User Authenticator #5/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:35:30] [Server thread/INFO]: phi joined the game
-[14:35:30] [Server thread/INFO]: phi[/192.168.196.201:54819] logged in with entity id 1933 at ([world]-234.68011760015025, 58.0, 63.507749484828445)
-[14:37:04] [Server thread/WARN]: phi moved wrongly!
-[14:37:55] [Server thread/INFO]: phi lost connection: Disconnected
-[14:37:55] [Server thread/INFO]: phi left the game
-[14:38:27] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:38:35] [Server thread/INFO]: phi joined the game
-[14:38:36] [Server thread/INFO]: phi[/192.168.196.201:55033] logged in with entity id 2416 at ([world]-231.6261955204272, 58.094567647522716, 59.88640254471433)
-[14:38:57] [Server thread/INFO]: phi lost connection: Disconnected
-[14:38:58] [Server thread/INFO]: phi left the game
-[14:39:19] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:39:21] [Server thread/INFO]: phi joined the game
-[14:39:21] [Server thread/INFO]: phi[/192.168.196.201:55088] logged in with entity id 2694 at ([world]-231.6261955204272, 58.0, 59.88640254471433)
-[14:39:49] [Server thread/INFO]: phi lost connection: Disconnected
-[14:39:49] [Server thread/INFO]: phi left the game
-[14:40:59] [User Authenticator #7/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:41:01] [Server thread/INFO]: phi joined the game
-[14:41:01] [Server thread/INFO]: phi[/192.168.196.201:55199] logged in with entity id 2973 at ([world]-231.6261955204272, 58.0, 59.88640254471433)
-[14:41:23] [Server thread/INFO]: phi lost connection: Disconnected
-[14:41:23] [Server thread/INFO]: phi left the game
-[14:41:28] [User Authenticator #7/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[14:41:30] [Server thread/INFO]: phi joined the game
-[14:41:30] [Server thread/INFO]: phi[/192.168.196.201:55247] logged in with entity id 3257 at ([world]-231.6261955204272, 58.0, 59.88640254471433)
-[14:44:38] [Server thread/INFO]: phi issued server command: /gamemode spectator
-[14:44:38] [Server thread/INFO]: [phi: Set own game mode to Spectator Mode]
-[14:46:22] [Server thread/INFO]: phi issued server command: /gamemode survival
-[14:46:22] [Server thread/INFO]: [phi: Set own game mode to Survival Mode]
-[14:53:00] [Server thread/INFO]: phi issued server command: /gamemode spectator
-[14:53:00] [Server thread/INFO]: [phi: Set own game mode to Spectator Mode]
-[14:54:45] [Server thread/INFO]: phi issued server command: /gamemode survival
-[14:54:45] [Server thread/INFO]: [phi: Set own game mode to Survival Mode]
-[14:55:33] [Server thread/INFO]: phi lost connection: Disconnected
-[14:55:33] [Server thread/INFO]: phi left the game
-[18:39:56] [Server thread/INFO]: Stopping the server
-[18:39:56] [Server thread/INFO]: Stopping server
-[18:39:56] [Server thread/INFO]: Saving players
-[18:39:56] [Server thread/INFO]: Saving worlds
-[18:39:56] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[18:39:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:39:56] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[18:39:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:39:56] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[18:39:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:39:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:39:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:39:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:39:57] [Server thread/INFO]: Flushing Chunk IO
-[18:39:57] [Server thread/INFO]: Closing Thread Pool
-[18:39:57] [Server thread/INFO]: Closing Server
+[14:40:51] [Server thread/INFO]: Stopping the server
+[14:40:51] [Server thread/INFO]: Stopping server
+[14:40:51] [Server thread/INFO]: Saving players
+[14:40:51] [Server thread/INFO]: Saving worlds
+[14:40:51] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[14:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:51] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[14:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:51] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[14:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:51] [Server thread/INFO]: Flushing Chunk IO
+[14:40:51] [Server thread/INFO]: Closing Thread Pool
+[14:40:51] [Server thread/INFO]: Closing Server
