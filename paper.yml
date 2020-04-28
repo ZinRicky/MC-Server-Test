@@ -37,6 +37,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   async-chunks:
+    load-threads: -1
     enable: true
     threads: -1
 messages:
