@@ -75,7 +75,7 @@ world-settings:
     seed-endcity: 10387313
     seed-slime: 987234911
     max-tnt-per-tick: 100
-    mob-spawn-range: 8
+    mob-spawn-range: 6
     nerf-spawner-mobs: false
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
@@ -85,7 +85,7 @@ world-settings:
     trident-despawn-rate: 1200
     wither-spawn-sound-radius: 0
     view-distance: default
-    max-entity-collisions: 8
+    max-entity-collisions: 2
     entity-tracking-range:
       players: 48
       animals: 48
@@ -109,8 +109,8 @@ world-settings:
     squid-spawn-range:
       min: 45.0
     merge-radius:
-      exp: 3.0
-      item: 2.5
+      exp: 6.0
+      item: 4.0
     growth:
       cactus-modifier: 100
       cane-modifier: 100

@@ -14,7 +14,7 @@
 
 settings:
   allow-end: true
-  warn-on-overload: true
+  warn-on-overload: false
   permissions-file: permissions.yml
   update-folder: update
   plugin-profiling: false
@@ -32,8 +32,8 @@ chunk-gc:
   period-in-ticks: 600
 ticks-per:
   animal-spawns: 400
-  monster-spawns: 1
+  monster-spawns: 2
   water-spawns: 1
   ambient-spawns: 1
-  autosave: 6000
+  autosave: 18000
 aliases: now-in-commands.yml

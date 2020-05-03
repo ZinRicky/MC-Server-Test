@@ -909,6 +909,12 @@
     },
     "done": false
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2020-05-03 11:13:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2020-02-27 11:28:05 +0100"
