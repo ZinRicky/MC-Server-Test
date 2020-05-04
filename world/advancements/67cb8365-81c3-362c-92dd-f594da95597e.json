@@ -449,6 +449,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2020-05-03 15:14:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/composter": {
     "criteria": {
       "has_wood_slab": "2020-02-25 17:39:09 +0100"
@@ -927,6 +933,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2020-05-03 16:10:44 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2020-02-25 15:52:56 +0100"
@@ -1239,6 +1251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2020-05-03 16:10:44 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2020-02-28 21:24:24 +0100"
@@ -1542,6 +1560,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2020-03-27 12:53:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2020-05-03 14:23:58 +0200"
     },
     "done": true
   },
@@ -3018,6 +3042,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2020-05-03 16:08:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
     "criteria": {
       "has_smooth_quartz": "2020-04-30 17:31:12 +0200"
@@ -3225,6 +3255,12 @@
   "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
     "criteria": {
       "has_yellow_dye": "2020-02-25 18:49:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2020-05-03 16:08:14 +0200"
     },
     "done": true
   },

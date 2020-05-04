@@ -1,47 +1,13 @@
-[11:06:43] [User Authenticator #1/INFO]: UUID of player ZinRicky is 522216fc-8406-320f-b485-b3fafc4753f7
-[11:06:51] [Server thread/INFO]: ZinRicky joined the game
-[11:06:54] [Server thread/INFO]: ZinRicky[/192.168.196.242:50001] logged in with entity id 1 at ([world]-248.3582045516298, 57.0, 10.088616198349966)
-[11:08:05] [Server thread/INFO]: ZinRicky issued server command: /ip
-[11:08:07] [Server thread/INFO]: ZinRicky lost connection: Disconnected
-[11:08:07] [Server thread/INFO]: ZinRicky left the game
-[11:09:49] [User Authenticator #2/INFO]: UUID of player Zifren is 48bb299e-d5d8-3a75-a4f4-cdd430986f9c
-[11:09:51] [User Authenticator #2/INFO]: UUID of player ZinRicky is 522216fc-8406-320f-b485-b3fafc4753f7
-[11:09:51] [Server thread/INFO]: Zifren joined the game
-[11:09:52] [Server thread/INFO]: Zifren[/192.168.196.126:62355] logged in with entity id 302 at ([world]-176.0, 68.0, 80.0)
-[11:09:52] [Server thread/INFO]: ZinRicky joined the game
-[11:09:53] [Server thread/INFO]: ZinRicky[/192.168.196.242:50307] logged in with entity id 303 at ([world]-200.00547657060648, 68.0, 68.25621666204549)
-[11:10:49] [Server thread/INFO]: Zifren lost connection: Disconnected
-[11:10:49] [Server thread/INFO]: Zifren left the game
-[11:10:57] [User Authenticator #3/INFO]: UUID of player Zifren is 48bb299e-d5d8-3a75-a4f4-cdd430986f9c
-[11:10:59] [Server thread/INFO]: Zifren joined the game
-[11:10:59] [Server thread/INFO]: Zifren[/192.168.196.126:62446] logged in with entity id 607 at ([world]-198.36455667101342, 68.525, 68.903988592397)
-[11:12:40] [Server thread/INFO]: ZinRicky issued server command: /kick Zifren
-[11:12:40] [Server thread/INFO]: Zifren lost connection: Kicked by an operator
-[11:12:40] [Server thread/INFO]: Zifren left the game
-[11:12:40] [Server thread/INFO]: [ZinRicky: Kicked Zifren: Kicked by an operator]
-[11:12:40] [Server thread/WARN]: handleDisconnection() called twice
-[11:12:47] [User Authenticator #4/INFO]: UUID of player Zifren is 48bb299e-d5d8-3a75-a4f4-cdd430986f9c
-[11:12:48] [Server thread/INFO]: Zifren joined the game
-[11:12:49] [Server thread/INFO]: Zifren[/192.168.196.126:62619] logged in with entity id 791 at ([world]-211.53471855982121, 61.0, 52.171461768678355)
-[11:13:22] [Server thread/INFO]: ZinRicky has made the advancement [Take Aim]
-[11:13:55] [Server thread/INFO]: Zifren has made the advancement [Fishy Business]
-[11:19:15] [Server thread/INFO]: ZinRicky lost connection: Disconnected
-[11:19:15] [Server thread/INFO]: ZinRicky left the game
-[11:19:24] [Server thread/INFO]: Zifren lost connection: Disconnected
-[11:19:25] [Server thread/INFO]: Zifren left the game
-[11:20:10] [Server thread/INFO]: Stopping the server
-[11:20:11] [Server thread/INFO]: Stopping server
-[11:20:11] [Server thread/INFO]: Saving players
-[11:20:11] [Server thread/INFO]: Saving worlds
-[11:20:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[11:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:20:11] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[11:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:20:11] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[11:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:20:11] [Server thread/INFO]: Flushing Chunk IO
-[11:20:11] [Server thread/INFO]: Closing Thread Pool
-[11:20:11] [Server thread/INFO]: Closing Server
+[17:54:58] [Server thread/INFO]: Stopping the server
+[17:54:58] [Server thread/INFO]: Stopping server
+[17:54:58] [Server thread/INFO]: Saving players
+[17:54:58] [Server thread/INFO]: Saving worlds
+[17:54:58] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[17:54:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:54:58] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[17:54:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:54:58] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[17:54:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:54:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:54:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:54:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
