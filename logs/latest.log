@@ -1,22 +1,16 @@
-[14:20:58] [User Authenticator #3/INFO]: UUID of player ZinRicky is 522216fc-8406-320f-b485-b3fafc4753f7
-[14:21:08] [Server thread/INFO]: ZinRicky joined the game
-[14:21:16] [Server thread/INFO]: ZinRicky[/192.168.196.242:50359] logged in with entity id 918 at ([world]-206.24795998475273, 62.0, 67.13491448500515)
-[14:21:30] [Server thread/INFO]: ZinRicky issued server command: /tps
-[14:21:35] [Server thread/INFO]: ZinRicky lost connection: Disconnected
-[14:21:35] [Server thread/INFO]: ZinRicky left the game
-[14:22:05] [Server thread/INFO]: Stopping the server
-[14:22:05] [Server thread/INFO]: Stopping server
-[14:22:05] [Server thread/INFO]: Saving players
-[14:22:05] [Server thread/INFO]: Saving worlds
-[14:22:05] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[14:22:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:22:05] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[14:22:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:22:05] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[14:22:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:22:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:22:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:22:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:22:05] [Server thread/INFO]: Flushing Chunk IO
-[14:22:05] [Server thread/INFO]: Closing Thread Pool
-[14:22:05] [Server thread/INFO]: Closing Server
+[11:00:04] [Server thread/INFO]: Stopping the server
+[11:00:04] [Server thread/INFO]: Stopping server
+[11:00:04] [Server thread/INFO]: Saving players
+[11:00:04] [Server thread/INFO]: Saving worlds
+[11:00:04] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[11:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:00:04] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[11:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:00:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[11:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:00:04] [Server thread/INFO]: Flushing Chunk IO
+[11:00:04] [Server thread/INFO]: Closing Thread Pool
+[11:00:04] [Server thread/INFO]: Closing Server

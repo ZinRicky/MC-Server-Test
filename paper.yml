@@ -192,3 +192,5 @@ world-settings:
       replacement-blocks:
       - stone
       - oak_planks
+    viewdistances:
+      no-tick-view-distance: -1

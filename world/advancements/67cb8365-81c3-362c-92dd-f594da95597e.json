@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2020-05-09 21:29:47 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2020-02-26 17:56:13 +0100"
@@ -1515,6 +1521,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2020-05-09 13:09:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_gray_dye": "2020-02-28 13:17:01 +0100"
@@ -1695,6 +1707,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2020-05-09 12:58:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_terracotta": {
     "criteria": {
       "has_terracotta": "2020-04-30 17:19:20 +0200"
@@ -1770,6 +1788,12 @@
   "minecraft:recipes/misc/green_dye": {
     "criteria": {
       "has_cactus": "2020-03-03 18:06:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2020-05-09 12:58:35 +0200"
     },
     "done": true
   },
@@ -1929,6 +1953,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2020-05-09 20:08:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2020-03-27 13:17:24 +0100"
@@ -1973,7 +2003,9 @@
       "baked_potato": "2020-03-01 22:11:31 +0100",
       "bread": "2020-02-25 17:53:57 +0100",
       "rotten_flesh": "2020-02-25 16:18:00 +0100",
+      "cookie": "2020-05-09 21:50:39 +0200",
       "melon_slice": "2020-02-26 16:02:56 +0100",
+      "beetroot": "2020-05-09 20:17:15 +0200",
       "cooked_chicken": "2020-03-01 21:07:24 +0100",
       "cooked_salmon": "2020-02-25 17:53:43 +0100",
       "carrot": "2020-02-28 12:39:29 +0100"
@@ -2180,7 +2212,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:chicken": "2020-02-28 14:38:23 +0100"
+      "minecraft:chicken": "2020-02-28 14:38:23 +0100",
+      "minecraft:bee": "2020-05-09 21:41:19 +0200"
     },
     "done": false
   },
@@ -2235,6 +2268,12 @@
   "minecraft:recipes/decorations/orange_glazed_terracotta": {
     "criteria": {
       "has_orange_terracotta": "2020-04-26 18:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2020-05-09 20:08:02 +0200"
     },
     "done": true
   },
@@ -2799,6 +2838,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2020-02-26 16:41:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2020-05-09 13:07:03 +0200"
     },
     "done": true
   },
