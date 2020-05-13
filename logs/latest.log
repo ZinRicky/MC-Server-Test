@@ -1,38 +1,17 @@
-[12:38:32] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[12:38:45] [Server thread/INFO]: phi joined the game
-[12:38:45] [Server thread/INFO]: phi[/192.168.196.201:51123] logged in with entity id 16552 at ([world]-221.85718568011475, 62.0, 60.24242756548085)
-[12:39:02] [Server thread/INFO]: phi lost connection: Timed out
-[12:39:03] [Server thread/INFO]: phi left the game
-[12:39:19] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[12:39:25] [Server thread/INFO]: phi joined the game
-[12:39:28] [Server thread/INFO]: phi[/192.168.196.201:51196] logged in with entity id 16683 at ([world]-221.85718568011475, 62.0, 60.24242756548085)
-[12:39:49] [Server thread/INFO]: phi lost connection: Timed out
-[12:39:49] [Server thread/INFO]: phi left the game
-[12:40:10] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[12:40:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 11.0, 17.19, 18.97
-[12:40:22] [Server thread/INFO]: phi joined the game
-[12:40:22] [Server thread/INFO]: phi[/192.168.196.201:51253] logged in with entity id 16819 at ([world]-221.85718568011475, 62.0, 60.24242756548085)
-[12:40:37] [Server thread/INFO]: [Server] Ti avviso che la swap del Pi è quasi piena
-[12:40:40] [Server thread/INFO]: phi lost connection: Disconnected
-[12:40:41] [Server thread/INFO]: phi left the game
-[12:40:47] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[12:40:50] [Server thread/INFO]: phi joined the game
-[12:40:50] [Server thread/INFO]: phi[/192.168.196.201:51298] logged in with entity id 17127 at ([world]-221.85718568011475, 62.0, 60.24242756548085)
-[12:41:00] [Server thread/INFO]: Stopping the server
-[12:41:00] [Server thread/INFO]: Stopping server
-[12:41:00] [Server thread/INFO]: Saving players
-[12:41:00] [Server thread/INFO]: phi lost connection: Server closed
-[12:41:00] [Server thread/INFO]: phi left the game
-[12:41:00] [Server thread/INFO]: Saving worlds
-[12:41:00] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[12:41:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:41:04] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[12:41:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:41:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[12:41:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:41:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:41:05] [Server thread/INFO]: Flushing Chunk IO
-[12:41:05] [Server thread/INFO]: Closing Thread Pool
-[12:41:05] [Server thread/INFO]: Closing Server
+[10:37:39] [Server thread/INFO]: [Server] Closing server (stop.sh called)...
+[10:37:39] [Server thread/INFO]: Stopping the server
+[10:37:39] [Server thread/INFO]: Stopping server
+[10:37:40] [Server thread/INFO]: Saving players
+[10:37:40] [Server thread/INFO]: Saving worlds
+[10:37:40] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[10:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:37:40] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[10:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:37:40] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[10:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:37:40] [Server thread/INFO]: Flushing Chunk IO
+[10:37:40] [Server thread/INFO]: Closing Thread Pool
+[10:37:40] [Server thread/INFO]: Closing Server
