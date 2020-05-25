@@ -1,43 +1,17 @@
-[21:44:14] [User Authenticator #5/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[21:44:23] [Server thread/INFO]: phi joined the game
-[21:44:32] [Server thread/INFO]: phi[/192.168.196.201:60860] logged in with entity id 1943 at ([world]-189.33613957396983, 71.0, 8.383957049267249)
-[21:44:44] [Server thread/INFO]: phi lost connection: Timed out
-[21:44:45] [Server thread/INFO]: phi left the game
-[21:44:54] [User Authenticator #5/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[21:45:09] [Server thread/INFO]: phi joined the game
-[21:45:09] [Server thread/INFO]: phi[/192.168.196.201:60881] logged in with entity id 1992 at ([world]-189.33613957396983, 71.0, 8.383957049267249)
-[21:45:24] [Server thread/INFO]: phi lost connection: Disconnected
-[21:45:24] [Server thread/INFO]: phi left the game
-[21:45:39] [User Authenticator #5/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[21:45:41] [Server thread/INFO]: phi joined the game
-[21:45:41] [Server thread/INFO]: phi[/192.168.196.201:60893] logged in with entity id 2241 at ([world]-189.33613957396983, 71.0, 8.383957049267249)
-[21:56:30] [Server thread/INFO]: phi has made the advancement [Best Friends Forever]
-[22:01:23] [Server thread/INFO]: phi lost connection: Disconnected
-[22:01:24] [Server thread/INFO]: phi left the game
-[22:01:31] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[22:01:43] [Server thread/INFO]: phi joined the game
-[22:01:43] [Server thread/INFO]: phi[/192.168.196.201:61036] logged in with entity id 4785 at ([world]-224.70947236548574, 62.0, 57.62779497062696)
-[22:02:01] [Server thread/INFO]: phi lost connection: Disconnected
-[22:02:02] [Server thread/INFO]: phi left the game
-[22:02:23] [User Authenticator #6/INFO]: UUID of player phi is 67cb8365-81c3-362c-92dd-f594da95597e
-[22:02:25] [Server thread/INFO]: phi joined the game
-[22:02:25] [Server thread/INFO]: phi[/192.168.196.201:61254] logged in with entity id 5109 at ([world]-224.70947236548574, 62.0, 57.62779497062696)
-[22:02:29] [Server thread/INFO]: [Server] Closing server (stop.sh called)...
-[22:02:31] [Server thread/INFO]: Stopping the server
-[22:02:31] [Server thread/INFO]: Stopping server
-[22:02:31] [Server thread/INFO]: Saving players
-[22:02:32] [Server thread/INFO]: phi lost connection: Server closed
-[22:02:32] [Server thread/INFO]: phi left the game
-[22:02:32] [Server thread/INFO]: Saving worlds
-[22:02:32] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[22:02:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:02:40] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[22:02:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:02:40] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[22:02:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:02:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:02:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:02:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:02:40] [Server thread/INFO]: Flushing Chunk IO
-[22:02:40] [Server thread/INFO]: Closing Thread Pool
-[22:02:40] [Server thread/INFO]: Closing Server
+[10:23:14] [Server thread/INFO]: [Server] Closing server (stop.sh called)...
+[10:23:14] [Server thread/INFO]: Stopping the server
+[10:23:14] [Server thread/INFO]: Stopping server
+[10:23:14] [Server thread/INFO]: Saving players
+[10:23:14] [Server thread/INFO]: Saving worlds
+[10:23:14] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:23:14] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:23:14] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:23:14] [Server thread/INFO]: Flushing Chunk IO
+[10:23:14] [Server thread/INFO]: Closing Thread Pool
+[10:23:14] [Server thread/INFO]: Closing Server

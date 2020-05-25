@@ -368,6 +368,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "honey_bottle": "2020-05-20 22:10:55 +0200",
       "cooked_beef": "2020-05-08 20:11:57 +0200",
       "baked_potato": "2020-04-29 22:32:09 +0200"
     },
@@ -502,6 +503,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2020-05-03 11:45:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2020-05-20 22:17:12 +0200"
     },
     "done": true
   },
@@ -900,6 +907,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2020-05-20 22:17:12 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-05-03 11:54:11 +0200"
@@ -1056,6 +1069,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2020-05-03 11:49:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-20 22:10:05 +0200"
     },
     "done": true
   },
@@ -1618,6 +1637,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-05-20 22:10:05 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_stairs": {
     "criteria": {
       "has_planks": "2020-05-08 20:13:42 +0200"
@@ -1792,6 +1817,12 @@
   "minecraft:recipes/building_blocks/andesite_slab": {
     "criteria": {
       "has_andesite": "2020-05-08 20:03:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2020-05-20 22:17:12 +0200"
     },
     "done": true
   },

@@ -10,9 +10,11 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
+  console-has-all-permissions: false
   chunk-tasks-per-tick: 1000
   enable-player-collisions: true
   save-empty-scoreboard-teams: false
