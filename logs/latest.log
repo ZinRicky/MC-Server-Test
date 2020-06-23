@@ -1,17 +1,17 @@
-[10:23:14] [Server thread/INFO]: [Server] Closing server (stop.sh called)...
-[10:23:14] [Server thread/INFO]: Stopping the server
-[10:23:14] [Server thread/INFO]: Stopping server
-[10:23:14] [Server thread/INFO]: Saving players
-[10:23:14] [Server thread/INFO]: Saving worlds
-[10:23:14] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:23:14] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:23:14] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:23:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:23:14] [Server thread/INFO]: Flushing Chunk IO
-[10:23:14] [Server thread/INFO]: Closing Thread Pool
-[10:23:14] [Server thread/INFO]: Closing Server
+[13:06:40] [Server thread/INFO]: [Server] Closing server (stop.sh called)...
+[13:06:40] [Server thread/INFO]: Stopping the server
+[13:06:40] [Server thread/INFO]: Stopping server
+[13:06:40] [Server thread/INFO]: Saving players
+[13:06:40] [Server thread/INFO]: Saving worlds
+[13:06:40] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[13:06:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:06:40] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[13:06:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:06:40] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[13:06:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:06:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:06:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:06:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:06:40] [Server thread/INFO]: Flushing Chunk IO
+[13:06:40] [Server thread/INFO]: Closing Thread Pool
+[13:06:40] [Server thread/INFO]: Closing Server
